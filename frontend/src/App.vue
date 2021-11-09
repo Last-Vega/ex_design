@@ -3,6 +3,15 @@
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
     </section>
+    <v-btn  
+      id="add"
+      depressed
+      elevation="2"
+      outlined
+      v-on:click="addZero"
+    >
+    Add data
+    </v-btn>
   </div>
 </template>
 
@@ -11,6 +20,7 @@
   import Highcharts from 'highcharts'
   import More from 'highcharts/highcharts-more'
   import draggablePoints from 'highcharts/modules/draggable-points'
+  import noData from 'highcharts/modules/no-data-to-display'
 
   More(Highcharts)
   draggablePoints(Highcharts)
@@ -29,11 +39,27 @@
     tooltip: {
       valueDecimals: 9
     },
+    // chart: {
+    //   spacingRight: 500
+    // },
+    xAxis: {
+        min: -1,
+        max: 1,
+        gridLineWidth: 1,
+        tickPixelInterval: 25
+    },
     yAxis: {
-      title: {
-        text: null
-      },
-      // tickInterval: 0.5
+        min: -1,
+        max: 1,
+        tickPixelInterval: 50
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'left',
+        verticalAlign: 'top',
+        floating: true,
+        backgroundColor: Highcharts.defaultOptions.chart.backgroundColor,
+        borderWidth: 1
     },
     title: {
       text: 'Latent Space'
@@ -57,6 +83,10 @@
     }
   }
 
+  // document.getElementById('add').addEventListener('click', () => {
+  //   chartOptions.series.addPoint([0,0]); // Return random integer between 1 and 10.
+  // });
+
   export default {
     name: 'App',
     components: {
@@ -71,6 +101,12 @@
           { text: 'Year', value: 'year' }
         ],
         items: tableData
+      }
+    },
+    methods: {
+      addZero () {
+        console.log(this.options.series)
+        this.options.series[0].data.push([0,0])
       }
     }
   }
