@@ -1,18 +1,77 @@
 <template>
-  <v-app>
-    <v-container>
-      <ChatBoard/>
-    </v-container>
-  </v-app>
+  <div>
+    <section class="charts">
+      <highcharts :options="options" ref="chart"></highcharts>
+    </section>
+  </div>
 </template>
 
 <script>
-  import ChatBoard from './components/ChatBoard'
+  /* eslint-disable */
+  import Highcharts from 'highcharts'
+  import More from 'highcharts/highcharts-more'
+  import draggablePoints from 'highcharts/modules/draggable-points'
+
+  More(Highcharts)
+  draggablePoints(Highcharts)
+  var tableData = [
+    {
+      title: '',
+      author: '',
+      conference: '',
+      year: ''
+    }
+  ]
+
+  var updateIndexList = []
+
+  const chartOptions = {
+    tooltip: {
+      valueDecimals: 9
+    },
+    yAxis: {
+      title: {
+        text: null
+      },
+      // tickInterval: 0.5
+    },
+    title: {
+      text: 'Latent Space'
+    },
+    series: [
+      {
+        name: 'latent representation',
+        data: [],
+        dataLabal: [],
+        type: 'scatter',
+      }
+    ],
+    plotOptions: {
+      series: {
+        dragDrop: {
+          draggableX: true,
+          draggableY: true,
+          liveRedraw: true
+        }
+      }
+    }
+  }
 
   export default {
     name: 'App',
     components: {
-      ChatBoard
     },
+    data() {
+      return {
+        options: chartOptions,
+        headers: [
+          { text: 'Title', value: 'title' },
+          { text: 'Authors', value: 'author' },
+          { text: 'Conference', value: 'conference' },
+          { text: 'Year', value: 'year' }
+        ],
+        items: tableData
+      }
+    }
   }
 </script>
