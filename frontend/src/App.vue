@@ -3,24 +3,41 @@
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
     </section>
-    <v-btn  
-      id="add"
-      depressed
-      elevation="2"
-      outlined
-      v-on:click="addZero"
-    >
-    Add data
-    </v-btn>
+    <v-container>
+      <v-simple-table>
+        <template v-slot:default>
+          <thead>
+            <tr>
+              <th class="text-left">Title</th>
+              <th class="text-left">Authors</th>
+              <th class="text-left">Conference</th>
+              <th class="text-left">Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ displayBibInfo()[0] }}</td>
+              <td>{{ displayBibInfo()[1] }}</td>
+              <td>{{ displayBibInfo()[2] }}</td>
+              <td>{{ displayBibInfo()[3] }}</td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
+      <v-btn id="add" depressed elevation="2" outlined v-on:click="addZero">
+        確定
+      </v-btn>
+    </v-container>
   </div>
 </template>
 
 <script>
-  /* eslint-disable */
+/* eslint-disable */
   import Highcharts from 'highcharts'
   import More from 'highcharts/highcharts-more'
   import draggablePoints from 'highcharts/modules/draggable-points'
   import noData from 'highcharts/modules/no-data-to-display'
+  import ref50 from './assets/ref50.json'
 
   More(Highcharts)
   draggablePoints(Highcharts)
@@ -39,9 +56,6 @@
     tooltip: {
       valueDecimals: 9
     },
-    // chart: {
-    //   spacingRight: 500
-    // },
     xAxis: {
         min: -1,
         max: 1,
@@ -67,11 +81,47 @@
     series: [
       {
         name: 'latent representation',
-        data: [],
+        data: [[0,0]],
         dataLabal: [],
         type: 'scatter',
+        point: {
+        events: {
+          mouseOver() {
+            let point = this
+            let index = point.index
+            tableData[0].title = chartOptions.series[0].dataLabal[index][0]
+            tableData[0].author = chartOptions.series[0].dataLabal[index][1]
+            tableData[0].organization =
+              chartOptions.series[0].dataLabal[index][2]
+          },
+          mouseOut() {
+            let point = this
+            let index = point.index
+            console.log(chartOptions.series[0].data[index])
+            if (chartOptions.series[0].data[index].x !== undefined) {
+              chartOptions.series[0].data[index] = [
+                chartOptions.series[0].data[index].x,
+                chartOptions.series[0].data[index].y
+              ]
+              updateIndexList.push(index)
+            }
+          },
+          drop: function(e) {
+            console.log(e.newPoint)
+            let point = this
+            let index = point.index
+            console.log(index)
+            if (e.newPoint.x !== undefined) {
+              chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
+              updateIndexList.push(index)
+            }
+            console.log(updateIndexList)
+            console.log(chartOptions.series[0].data[index])
+          }
+        }
       }
-    ],
+    }
+  ],
     plotOptions: {
       series: {
         dragDrop: {
@@ -82,10 +132,6 @@
       }
     }
   }
-
-  // document.getElementById('add').addEventListener('click', () => {
-  //   chartOptions.series.addPoint([0,0]); // Return random integer between 1 and 10.
-  // });
 
   export default {
     name: 'App',
@@ -100,13 +146,21 @@
           { text: 'Conference', value: 'conference' },
           { text: 'Year', value: 'year' }
         ],
-        items: tableData
+        items: tableData,
+        bibInfo: ref50,
+        bibInfoIndex: 0
       }
     },
     methods: {
       addZero () {
-        console.log(this.options.series)
+        // this.options.series[0].data[bibInfoIndex] = []
         this.options.series[0].data.push([0,0])
+        this.bibInfoIndex += 1
+        // this.displayBibInfo()
+      },
+      displayBibInfo () {
+        // console.log(this.bibInfo.keys[this.bibInfoIndex])
+        return this.bibInfo.keys[this.bibInfoIndex]
       }
     }
   }
