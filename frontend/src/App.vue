@@ -3,30 +3,63 @@
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
     </section>
-    <v-container>
-      <v-simple-table>
-        <template v-slot:default>
-          <thead>
-            <tr>
-              <th class="text-left">Title</th>
-              <th class="text-left">Authors</th>
-              <th class="text-left">Conference</th>
-              <th class="text-left">Year</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{{ displayBibInfo()[0] }}</td>
-              <td>{{ displayBibInfo()[1] }}</td>
-              <td>{{ displayBibInfo()[2] }}</td>
-              <td>{{ displayBibInfo()[3] }}</td>
-            </tr>
-          </tbody>
-        </template>
-      </v-simple-table>
-      <v-btn id="add" depressed elevation="2" outlined v-on:click="addZero">
-        確定
-      </v-btn>
+    <v-container class="grey lighten-5">
+      <v-row no-gutters>
+        <v-col cols="12" sm="5">
+          <v-simple-table>
+            <template v-slot:default>
+              <caption>
+                動かす文献
+              </caption>
+              <thead>
+                <tr>
+                  <th class="text-left">Title</th>
+                  <th class="text-left">Authors</th>
+                  <th class="text-left">Conference</th>
+                  <th class="text-left">Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{ displayBibInfo()[0] }}</td>
+                  <td>{{ displayBibInfo()[1] }}</td>
+                  <td>{{ displayBibInfo()[2] }}</td>
+                  <td>{{ displayBibInfo()[3] }}</td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+          <v-btn id="add" depressed elevation="2" outlined v-on:click="addZero">
+            確定
+          </v-btn>
+        </v-col>
+        <v-col cols="12" sm="2"> </v-col>
+        <v-col cols="12" sm="5">
+          <v-simple-table>
+            <template v-slot:default>
+              <caption>
+                マウスがホバーした文献
+              </caption>
+              <thead>
+                <tr>
+                  <th class="text-left">Title</th>
+                  <th class="text-left">Authors</th>
+                  <th class="text-left">Conference</th>
+                  <th class="text-left">Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{ items[0].title }}</td>
+                  <td>{{ items[0].author }}</td>
+                  <td>{{ items[0].conference }}</td>
+                  <td>{{ items[0].year }}</td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
@@ -91,8 +124,9 @@
             let index = point.index
             tableData[0].title = chartOptions.series[0].dataLabal[index][0]
             tableData[0].author = chartOptions.series[0].dataLabal[index][1]
-            tableData[0].organization =
+            tableData[0].conference =
               chartOptions.series[0].dataLabal[index][2]
+            tableData[0].year = chartOptions.series[0].dataLabal[index][3]
           },
           mouseOut() {
             let point = this
@@ -148,7 +182,7 @@
         ],
         items: tableData,
         bibInfo: ref50,
-        bibInfoIndex: 0
+        bibInfoIndex: 0,
       }
     },
     methods: {
@@ -162,6 +196,9 @@
         // console.log(this.bibInfo.keys[this.bibInfoIndex])
         return this.bibInfo.keys[this.bibInfoIndex]
       }
+    },
+    created () {
+      this.options.series[0].dataLabal = ref50.keys
     }
   }
 </script>
