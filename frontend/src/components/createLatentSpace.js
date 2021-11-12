@@ -80,67 +80,65 @@ const chartOptions = {
             // console.log(e.newPoint)
             let point = this
             let index = point.index
-            console.log(index)
+            // console.log(index)
             if (e.newPoint.x !== undefined) {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
-              chartOptions.series[1].data.push([e.newPoint.x, e.newPoint.y])
+              // chartOptions.series[1].data.push([e.newPoint.x, e.newPoint.y])
               updateIndexList.push(index)
             }
-            console.log(updateIndexList)
-            console.log(chartOptions.series[0].data[index])
-          }
-        }
-      }
-    },
-    {
-      name: '動かした文献',
-      data: [],
-      dataLabal: [],
-      type: 'scatter',
-      color: 'red',
-      animation: false,
-      dragDrop: {
-        draggableX: false,
-        draggableY: false,
-        liveRedraw: false
-      },
-      point: {
-        events: {
-          mouseOver() {
-            let point = this
-            let index = point.index
-            tableData[0].title = chartOptions.series[0].dataLabal[index][0]
-            tableData[0].author = chartOptions.series[0].dataLabal[index][1]
-            tableData[0].conference = chartOptions.series[0].dataLabal[index][2]
-            tableData[0].year = chartOptions.series[0].dataLabal[index][3]
-          },
-          mouseOut() {
-            let point = this
-            let index = point.index
-            //   console.log(chartOptions.series[0].data[index])
-            if (chartOptions.series[0].data[index].x !== undefined) {
-              chartOptions.series[0].data[index] = [
-                chartOptions.series[0].data[index].x,
-                chartOptions.series[0].data[index].y
-              ]
-              updateIndexList.push(index)
-            }
-          },
-          drop: function (e) {
-            //   console.log(e.newPoint)
-            let point = this
-            let index = point.index
-            console.log(index)
-            if (e.newPoint.x !== undefined) {
-              chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
-              updateIndexList.push(index)
-            }
-            console.log(updateIndexList)
-            console.log(chartOptions.series[0].data[index])
           }
         }
       }
     }
+    // {
+    //   name: '動かした文献',
+    //   data: [],
+    //   dataLabal: [],
+    //   type: 'scatter',
+    //   color: 'red',
+    //   animation: false,
+    //   dragDrop: {
+    //     draggableX: false,
+    //     draggableY: false,
+    //     liveRedraw: false
+    //   },
+    //   point: {
+    //     events: {
+    //       mouseOver() {
+    //         let point = this
+    //         let index = point.index
+    //         tableData[0].title = chartOptions.series[0].dataLabal[index][0]
+    //         tableData[0].author = chartOptions.series[0].dataLabal[index][1]
+    //         tableData[0].conference = chartOptions.series[0].dataLabal[index][2]
+    //         tableData[0].year = chartOptions.series[0].dataLabal[index][3]
+    //       },
+    //       mouseOut() {
+    //         let point = this
+    //         let index = point.index
+    //         //   console.log(chartOptions.series[0].data[index])
+    //         if (chartOptions.series[0].data[index].x !== undefined) {
+    //           chartOptions.series[0].data[index] = [
+    //             chartOptions.series[0].data[index].x,
+    //             chartOptions.series[0].data[index].y
+    //           ]
+    //           updateIndexList.push(index)
+    //         }
+    //       },
+    //       drop: function (e) {
+    //         //   console.log(e.newPoint)
+    //         let point = this
+    //         let index = point.index
+    //         console.log(index)
+    //         if (e.newPoint.x !== undefined) {
+    //           chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
+    //           updateIndexList.push(index)
+    //         }
+    //         console.log(updateIndexList)
+    //         console.log(chartOptions.series[0].data[index])
+    //       }
+    //     }
+    //   }
+    // }
   ]
   //   plotOptions: {
   //     series: {
