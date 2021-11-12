@@ -70,7 +70,25 @@
               </tbody>
             </template>
           </v-simple-table>
-          <v-btn id="add" depressed elevation="2" outlined v-on:click="addZero">
+          <v-btn
+            v-if="bibInfoIndex % 10 == 9"
+            id="add"
+            depressed
+            elevation="2"
+            outlined
+            color="red lighten-2"
+            v-on:click="register"
+          >
+            この内容で登録する
+          </v-btn>
+          <v-btn
+            v-else-if="bibInfoIndex < 49"
+            id="add"
+            depressed
+            elevation="2"
+            outlined
+            v-on:click="addZero"
+          >
             次の文献を動かす
           </v-btn>
         </v-col>
@@ -108,6 +126,7 @@
 <script>
 import { tableData, chartOptions } from '@/components/createLatentSpace'
 import ref50 from '@/assets/ref50.json'
+import {db} from '../plugins/firebase'
 
 export default {
   name: 'DisplayLatentSpace',
@@ -140,6 +159,15 @@ export default {
     },
     displayBibInfo() {
       return this.bibInfo.keys[this.bibInfoIndex]
+    },
+    register() {
+      console.log(db)
+      this.options.series[0].data.forEach(element => {
+        db.collection('logs').add({
+          x: element[0],
+          y: element[1]
+        })
+      })
     }
   },
   created() {
