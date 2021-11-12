@@ -1,18 +1,18 @@
 <template>
   <div>
     <DisplayLatentSpace />
-    <Instraction />
+    <!-- <section><Instraction /></section> -->
   </div>
 </template>
 
 <script>
 import DisplayLatentSpace from '@/components/displayLatentInfo'
-import Instraction from '../components/instraction.vue'
+// import Instraction from '../components/instraction.vue'
 export default {
   name: 'LatentSpace',
   components: {
-    DisplayLatentSpace,
-    Instraction
+    DisplayLatentSpace
+    // Instraction
   },
   data() {
     return {}

@@ -1,5 +1,46 @@
 <template>
   <v-app>
+    <div class="text-center">
+      <v-dialog v-model="dialog" width="1000">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn color="red lighten-2" dark v-bind="attrs" v-on="on">
+            タスク説明
+          </v-btn>
+        </template>
+
+        <v-card>
+          <v-card-title class="text-h5 grey lighten-2">
+            表示される文献を，各々の文献管理の基準に基づいて好きな位置に配置してもらいます
+          </v-card-title>
+
+          <v-card-text>
+            <ol>
+              <li>
+                一つ目の文献が座標平面上の(0,0)の位置にプロットされています．その文献の情報は画面左下の表「動かす文献」から確認できます．その情報をもとに，適当な位置を決めて動かしてください．プロットされた点はドラッグ層さえ動かすことができます．
+              </li>
+              <li>
+                位置が確定したら，画面左下の「次の文献を動かす」ボタンを押してください．
+              </li>
+              <li>
+                新たな文献が座標平面上の(0,0)の位置にプロットされます．画面左下の表「動かす文献」を確認しながら文献を適当な位置に配置してください
+              </li>
+              <li>
+                これまでに動かした文献は，プロットされた各点をホバーすることで画面右下の表「マウスがホバーした文献」から確認することができます．
+              </li>
+            </ol>
+          </v-card-text>
+
+          <v-divider></v-divider>
+
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn color="primary" text @click="dialog = false">
+              I accept
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+    </div>
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
     </section>
@@ -61,17 +102,17 @@
         </v-col>
       </v-row>
     </v-container>
-    <!-- <instraction /> -->
   </v-app>
 </template>
 
 <script>
 import { tableData, chartOptions } from '@/components/createLatentSpace'
 import ref50 from '@/assets/ref50.json'
+
 export default {
   name: 'DisplayLatentSpace',
   components: {
-    // instraction
+    // Instraction
   },
   data() {
     return {
@@ -90,18 +131,20 @@ export default {
   },
   methods: {
     addZero() {
-      // this.options.series[0].data[bibInfoIndex] = []
+      // console.log(this.options.series[0].data[this.bibInfoIndex].color)
+      // console.log(this.options.series[0].data.color)
+      // console.log(this.options.series[0].color)
+      // this.options.series[0].data[this.bibInfoIndex].color = 'green'
       this.options.series[0].data.push([0, 0])
       this.bibInfoIndex += 1
-      // this.displayBibInfo()
     },
     displayBibInfo() {
-      // console.log(this.bibInfo.keys[this.bibInfoIndex])
       return this.bibInfo.keys[this.bibInfoIndex]
     }
   },
   created() {
     this.options.series[0].dataLabal = ref50.keys
+    // this.options.series[1].dataLabal = ref50.keys
   }
 }
 </script>
