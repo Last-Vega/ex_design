@@ -1,25 +1,23 @@
 <template>
-  <div>
-    <!-- <div v-if="isLogin"> 
-      <LatentSpace />
-    </div>
-    <div v-else>
-
-    </div> -->
-    <LatentSpace />
-  </div>
+  <v-app>
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import LatentSpace from './views/LatentSpace.vue'
+// import LatentSpace from './views/LatentSpace.vue'
+// import Login from './views/Login.vue'
 export default {
   name: 'App',
   components: {
-    LatentSpace
+    // LatentSpace,
+    // Login
   },
   data() {
     return {
-      isLogin: false
+      // isLogin: this.$store.state.loginState.isLogin
     }
   },
   methods: {}

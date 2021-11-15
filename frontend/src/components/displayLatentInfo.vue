@@ -126,7 +126,7 @@
 <script>
 import { tableData, chartOptions } from '@/components/createLatentSpace'
 import ref50 from '@/assets/ref50.json'
-import {db} from '../plugins/firebase'
+import { db } from '../plugins/firebase'
 
 export default {
   name: 'DisplayLatentSpace',
