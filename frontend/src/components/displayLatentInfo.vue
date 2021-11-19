@@ -30,7 +30,7 @@
               </tbody>
             </template>
           </v-simple-table>
-          <v-btn
+          <!-- <v-btn
             v-if="bibInfoIndex % 10 == 9"
             id="add"
             depressed
@@ -40,9 +40,9 @@
             v-on:click="register"
           >
             この内容で登録する
-          </v-btn>
+          </v-btn> -->
           <v-btn
-            v-else-if="bibInfoIndex < 49"
+            v-if="bibInfoIndex < 49"
             id="add"
             depressed
             elevation="2"
@@ -84,7 +84,11 @@
 </template>
 
 <script>
-import { tableData, chartOptions } from '@/components/createLatentSpace'
+import {
+  tableData,
+  chartOptions,
+  miscList
+} from '@/components/createLatentSpace'
 import ref50 from '@/assets/ref50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/dialog'
@@ -107,7 +111,8 @@ export default {
       items: tableData,
       bibInfo: ref50,
       bibInfoIndex: 0,
-      userID: this.$store.state.loginState.id
+      userID: this.$store.state.loginState.id,
+      misc: miscList
     }
   },
   methods: {
@@ -116,7 +121,18 @@ export default {
       // console.log(this.options.series[0].data.color)
       // console.log(this.options.series[0].color)
       // this.options.series[0].data[this.bibInfoIndex].color = 'green'
+      // const data = this.misc[-1]
+      // console.log(this.misc)
+
+      this.options.series[0].data.splice(-1, 1)
       this.options.series[0].data.push([0, 0])
+      db.collection('logs').add({
+        ind: this.bibInfoIndex,
+        x: this.options.series[1].data[this.bibInfoIndex][0],
+        y: this.options.series[1].data[this.bibInfoIndex][1],
+        userID: this.userID
+      })
+      // this.options.series[1].data.push(this.options.series[0].data[this.bibInfoIndex])
       this.bibInfoIndex += 1
     },
     displayBibInfo() {
@@ -126,7 +142,7 @@ export default {
       // 50件まとめて追加するならi=0で宣言してok
       // 10件ずつとかなら工夫する必要あり
       var i = 0
-      this.options.series[0].data.forEach(element => {
+      this.options.series[1].data.forEach(element => {
         db.collection('logs').add({
           ind: i,
           x: element[0],
@@ -141,6 +157,7 @@ export default {
   },
   created() {
     this.options.series[0].dataLabal = ref50.keys
+    this.options.series[1].dataLabal = ref50.keys
   }
 }
 </script>
