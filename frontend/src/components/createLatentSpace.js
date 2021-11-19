@@ -59,12 +59,12 @@ const chartOptions = {
       point: {
         events: {
           mouseOver() {
-            let point = this
-            let index = point.index
-            tableData[0].title = chartOptions.series[0].dataLabal[index][0]
-            tableData[0].author = chartOptions.series[0].dataLabal[index][1]
-            tableData[0].conference = chartOptions.series[0].dataLabal[index][2]
-            tableData[0].year = chartOptions.series[0].dataLabal[index][3]
+            // let point = this
+            // let index = point.index
+            tableData[0].title = ''
+            tableData[0].author = ''
+            tableData[0].conference = ''
+            tableData[0].year = ''
           },
           mouseOut() {
             let point = this
@@ -85,12 +85,14 @@ const chartOptions = {
             // console.log(index)
             if (e.newPoint.x !== undefined) {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
-              // miscList.push([e.newPoint.x, e.newPoint.y])
-              chartOptions.series[1].data.push([e.newPoint.x, e.newPoint.y])
+              miscList[index] = [e.newPoint.x, e.newPoint.y]
+              console.log(miscList)
+              // chartOptions.series[1].data.push([e.newPoint.x, e.newPoint.y])
               updateIndexList.push(index)
             } else {
-              chartOptions.series[1].data.push([0, 0])
-              updateIndexList.push(index)
+              // miscList[index] = [0,0]
+              // // chartOptions.series[1].data.push([0, 0])
+              // updateIndexList.push(index)
             }
           }
         }
