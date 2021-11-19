@@ -30,17 +30,6 @@
               </tbody>
             </template>
           </v-simple-table>
-          <!-- <v-btn
-            v-if="bibInfoIndex % 10 == 9"
-            id="add"
-            depressed
-            elevation="2"
-            outlined
-            color="red lighten-2"
-            v-on:click="register"
-          >
-            この内容で登録する
-          </v-btn> -->
           <v-btn
             v-if="bibInfoIndex < 49"
             id="add"
@@ -117,42 +106,22 @@ export default {
   },
   methods: {
     addZero() {
-      // console.log(this.options.series[0].data[this.bibInfoIndex].color)
-      // console.log(this.options.series[0].data.color)
-      // console.log(this.options.series[0].color)
-      // this.options.series[0].data[this.bibInfoIndex].color = 'green'
-      // const data = this.misc[-1]
-      // console.log(this.misc)
-
       this.options.series[0].data.splice(-1, 1)
       this.options.series[0].data.push([0, 0])
+      const moved = this.misc[0]
+      console.log(moved)
+      console.log(moved[0])
       db.collection('logs').add({
         ind: this.bibInfoIndex,
-        x: this.options.series[1].data[this.bibInfoIndex][0],
-        y: this.options.series[1].data[this.bibInfoIndex][1],
+        x: moved[0],
+        y: moved[1],
         userID: this.userID
       })
-      // this.options.series[1].data.push(this.options.series[0].data[this.bibInfoIndex])
+      this.options.series[1].data.push(moved)
       this.bibInfoIndex += 1
     },
     displayBibInfo() {
       return this.bibInfo.keys[this.bibInfoIndex]
-    },
-    register() {
-      // 50件まとめて追加するならi=0で宣言してok
-      // 10件ずつとかなら工夫する必要あり
-      var i = 0
-      this.options.series[1].data.forEach(element => {
-        db.collection('logs').add({
-          ind: i,
-          x: element[0],
-          y: element[1],
-          userID: this.userID
-        })
-        i += 1
-      })
-      this.options.series[0].data.push([0, 0])
-      this.bibInfoIndex += 1
     }
   },
   created() {
