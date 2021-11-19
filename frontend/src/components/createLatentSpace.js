@@ -15,6 +15,8 @@ var tableData = [
 
 var updateIndexList = []
 
+var miscList = []
+
 const chartOptions = {
   tooltip: {
     valueDecimals: 9
@@ -43,12 +45,12 @@ const chartOptions = {
   },
   series: [
     {
-      name: 'latent representation',
+      name: '動かす文献',
       data: [[0, 0]],
+      // enableMouseTracking: true,
       dataLabal: [],
       type: 'scatter',
       animation: false,
-      //   color: 'red',
       dragDrop: {
         draggableX: true,
         draggableY: true,
@@ -83,72 +85,57 @@ const chartOptions = {
             // console.log(index)
             if (e.newPoint.x !== undefined) {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
-              // chartOptions.series[1].data.push([e.newPoint.x, e.newPoint.y])
+              // miscList.push([e.newPoint.x, e.newPoint.y])
+              chartOptions.series[1].data.push([e.newPoint.x, e.newPoint.y])
+              updateIndexList.push(index)
+            } else {
+              chartOptions.series[1].data.push([0, 0])
               updateIndexList.push(index)
             }
           }
         }
       }
+    },
+    {
+      name: '動かした文献',
+      data: [],
+      dataLabal: [],
+      type: 'scatter',
+      color: 'red',
+      animation: false,
+      dragDrop: {
+        draggableX: false,
+        draggableY: false,
+        liveRedraw: false
+      },
+      point: {
+        events: {
+          mouseOver() {
+            let point = this
+            let index = point.index
+            tableData[0].title = chartOptions.series[1].dataLabal[index][0]
+            tableData[0].author = chartOptions.series[1].dataLabal[index][1]
+            tableData[0].conference = chartOptions.series[1].dataLabal[index][2]
+            tableData[0].year = chartOptions.series[1].dataLabal[index][3]
+          }
+        }
+      }
     }
-    // {
-    //   name: '動かした文献',
-    //   data: [],
-    //   dataLabal: [],
-    //   type: 'scatter',
-    //   color: 'red',
-    //   animation: false,
-    //   dragDrop: {
-    //     draggableX: false,
-    //     draggableY: false,
-    //     liveRedraw: false
-    //   },
-    //   point: {
-    //     events: {
-    //       mouseOver() {
-    //         let point = this
-    //         let index = point.index
-    //         tableData[0].title = chartOptions.series[0].dataLabal[index][0]
-    //         tableData[0].author = chartOptions.series[0].dataLabal[index][1]
-    //         tableData[0].conference = chartOptions.series[0].dataLabal[index][2]
-    //         tableData[0].year = chartOptions.series[0].dataLabal[index][3]
-    //       },
-    //       mouseOut() {
-    //         let point = this
-    //         let index = point.index
-    //         //   console.log(chartOptions.series[0].data[index])
-    //         if (chartOptions.series[0].data[index].x !== undefined) {
-    //           chartOptions.series[0].data[index] = [
-    //             chartOptions.series[0].data[index].x,
-    //             chartOptions.series[0].data[index].y
-    //           ]
-    //           updateIndexList.push(index)
-    //         }
-    //       },
-    //       drop: function (e) {
-    //         //   console.log(e.newPoint)
-    //         let point = this
-    //         let index = point.index
-    //         console.log(index)
-    //         if (e.newPoint.x !== undefined) {
-    //           chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
-    //           updateIndexList.push(index)
-    //         }
-    //         console.log(updateIndexList)
-    //         console.log(chartOptions.series[0].data[index])
-    //       }
-    //     }
-    //   }
-    // }
-  ]
-  //   plotOptions: {
-  //     series: {
-  //       dragDrop: {
-  //         draggableX: true,
-  //         draggableY: true,
-  //         liveRedraw: true
-  //       },
-  //     }
-  //   }
+  ],
+  plotOptions: {
+    series: {
+      states: {
+        hover: {
+          enabled: false
+        }
+      }
+      // dragDrop: {
+      //   draggableX: true,
+      //   draggableY: true,
+      //   liveRedraw: true
+      // },
+    }
+  }
 }
 
-export { tableData, chartOptions }
+export { tableData, chartOptions, miscList }
