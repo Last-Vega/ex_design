@@ -115,10 +115,11 @@ const chartOptions = {
           mouseOver() {
             let point = this
             let index = point.index
-            tableData[0].title = chartOptions.series[1].dataLabal[index][0]
-            tableData[0].author = chartOptions.series[1].dataLabal[index][1]
-            tableData[0].conference = chartOptions.series[1].dataLabal[index][2]
-            tableData[0].year = chartOptions.series[1].dataLabal[index][3]
+            tableData[0].title = chartOptions.series[1].dataLabal[index].title
+            tableData[0].author = chartOptions.series[1].dataLabal[index].author
+            tableData[0].conference =
+              chartOptions.series[1].dataLabal[index].conference
+            tableData[0].year = chartOptions.series[1].dataLabal[index].year
           }
         }
       }

@@ -2,7 +2,9 @@
   <v-app>
     <v-main>
       <router-view />
-      <router-link to="/latent">latent</router-link>
+      <router-link to="/mori">森嶋先生</router-link>
+      <router-link to="/matsu">松原先生</router-link>
+      <router-link to="/ito">伊藤先生</router-link>
     </v-main>
   </v-app>
 </template>
