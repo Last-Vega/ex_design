@@ -8,6 +8,7 @@ __pycache__/
 .history
 gen_data
 .DS_Store
+node_modules
 # Distribution / packaging
 .Python
 build/
