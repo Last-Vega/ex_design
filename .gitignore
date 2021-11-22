@@ -9,6 +9,8 @@ __pycache__/
 gen_data
 .DS_Store
 node_modules
+.env.local
+.env.production
 # Distribution / packaging
 .Python
 build/
