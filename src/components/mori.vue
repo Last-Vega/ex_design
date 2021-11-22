@@ -22,10 +22,10 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>{{ displayBibInfo()[0] }}</td>
-                  <td>{{ displayBibInfo()[1] }}</td>
-                  <td>{{ displayBibInfo()[2] }}</td>
-                  <td>{{ displayBibInfo()[3] }}</td>
+                  <td>{{ displayBibInfo().title }}</td>
+                  <td>{{ displayBibInfo().author }}</td>
+                  <td>{{ displayBibInfo().conference }}</td>
+                  <td>{{ displayBibInfo().year }}</td>
                 </tr>
               </tbody>
             </template>
@@ -78,7 +78,7 @@ import {
   chartOptions,
   miscList
 } from '@/components/createLatentSpace'
-import ref50 from '@/assets/morishima50.json'
+import mori50 from '@/assets/morishima50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/dialog'
 
@@ -98,35 +98,50 @@ export default {
         { text: 'Year', value: 'year' }
       ],
       items: tableData,
-      bibInfo: ref50,
+      bibInfo: mori50,
       bibInfoIndex: 0,
-      userID: 0,
+      uID: 0,
       misc: miscList
     }
   },
   methods: {
     addZero() {
-      this.options.series[0].data.splice(-1, 1)
-      this.options.series[0].data.push([0, 0])
-      const moved = this.misc[0]
-      console.log(moved)
-      console.log(moved[0])
-      db.collection('logs').add({
-        ind: this.bibInfoIndex,
-        x: moved[0],
-        y: moved[1],
-        userID: this.userID
-      })
-      this.options.series[1].data.push(moved)
-      this.bibInfoIndex += 1
+      if (this.bibInfoIndex === 49) {
+        this.options.series[0].data.splice(-1, 1)
+        const moved = this.misc[0]
+        console.log(moved)
+        console.log(this.userID)
+        db.collection('logs').add({
+          ind: this.bibInfoIndex,
+          x: moved[0],
+          y: moved[1],
+          userID: this.uID
+        })
+        this.options.series[1].data.push(moved)
+        alert('実験は終了です．')
+      } else {
+        this.options.series[0].data.splice(-1, 1)
+        this.options.series[0].data.push([0, 0])
+        const moved = this.misc[0]
+        console.log(moved)
+        console.log(this.userID)
+        db.collection('logs').add({
+          ind: this.bibInfoIndex,
+          x: moved[0],
+          y: moved[1],
+          userID: this.uID
+        })
+        this.options.series[1].data.push(moved)
+        this.bibInfoIndex += 1
+      }
     },
     displayBibInfo() {
-      return this.bibInfo.keys[this.bibInfoIndex]
+      return this.bibInfo.key[this.bibInfoIndex][0]
     }
   },
   created() {
-    this.options.series[0].dataLabal = ref50.keys
-    this.options.series[1].dataLabal = ref50.keys
+    this.options.series[0].dataLabal = mori50.key
+    this.options.series[1].dataLabal = mori50.key
   }
 }
 </script>

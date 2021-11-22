@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Matsu from '@/components/displayLatentInfo'
+import Matsu from '@/components/matsu'
 // import Instraction from '../components/instraction.vue'
 export default {
   name: 'LatentSpace',

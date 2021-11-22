@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Ito from '@/components/displayLatentInfo'
+import Ito from '@/components/ito'
 // import Instraction from '../components/instraction.vue'
 export default {
   name: 'LatentSpace',
