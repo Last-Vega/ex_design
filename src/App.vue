@@ -2,6 +2,7 @@
   <v-app>
     <v-main>
       <router-view />
+      <router-link to="/latent">Go to latent</router-link>
     </v-main>
   </v-app>
 </template>
