@@ -11,6 +11,9 @@ gen_data
 node_modules
 .env.local
 .env.production
+*.csv
+*.tsv
+
 # Distribution / packaging
 .Python
 build/
