@@ -17,6 +17,9 @@ var updateIndexList = []
 
 var miscList = []
 
+var reMoved = 0
+var reMovedList = []
+
 const chartOptions = {
   tooltip: {
     valueDecimals: 9
@@ -106,9 +109,9 @@ const chartOptions = {
       color: 'red',
       animation: false,
       dragDrop: {
-        draggableX: false,
-        draggableY: false,
-        liveRedraw: false
+        draggableX: true,
+        draggableY: true,
+        liveRedraw: true
       },
       point: {
         events: {
@@ -122,6 +125,17 @@ const chartOptions = {
             tableData[0].conference =
               chartOptions.series[1].dataLabal[index][0].conference
             tableData[0].year = chartOptions.series[1].dataLabal[index][0].year
+          },
+          drop: function (e) {
+            let point = this
+            let index = point.index
+            if (e.newPoint.x !== undefined) {
+              chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
+              reMoved = index
+              reMovedList = [e.newPoint.x, e.newPoint.y]
+              console.log(miscList)
+              updateIndexList.push(index)
+            }
           }
         }
       }
@@ -143,4 +157,4 @@ const chartOptions = {
   }
 }
 
-export { tableData, chartOptions, miscList }
+export { tableData, chartOptions, miscList, reMoved, reMovedList }
