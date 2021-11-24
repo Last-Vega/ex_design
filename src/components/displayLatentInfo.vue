@@ -22,16 +22,16 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>{{ displayBibInfo()[0] }}</td>
-                  <td>{{ displayBibInfo()[1] }}</td>
-                  <td>{{ displayBibInfo()[2] }}</td>
-                  <td>{{ displayBibInfo()[3] }}</td>
+                  <td>{{ displayBibInfo().title }}</td>
+                  <td>{{ displayBibInfo().author }}</td>
+                  <td>{{ displayBibInfo().conference }}</td>
+                  <td>{{ displayBibInfo().year }}</td>
                 </tr>
               </tbody>
             </template>
           </v-simple-table>
           <v-btn
-            v-if="bibInfoIndex < 49"
+            v-if="bibInfoIndex < 50"
             id="add"
             depressed
             elevation="2"
@@ -78,7 +78,9 @@ import {
   chartOptions,
   miscList
 } from '@/components/createLatentSpace'
-import ref50 from '@/assets/ref50.json'
+import ito50 from '@/assets/ito50.json'
+import matsu50 from '@/assets/matsubara50.json'
+import mori50 from '@/assets/morishima50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/dialog'
 
@@ -98,35 +100,70 @@ export default {
         { text: 'Year', value: 'year' }
       ],
       items: tableData,
-      bibInfo: ref50,
+      bibInfo: '',
       bibInfoIndex: 0,
-      userID: this.$store.state.loginState.id,
-      misc: miscList
+      uID: -1,
+      misc: miscList,
+      collectionName: ''
     }
   },
   methods: {
     addZero() {
-      this.options.series[0].data.splice(-1, 1)
-      this.options.series[0].data.push([0, 0])
-      const moved = this.misc[0]
-      console.log(moved)
-      console.log(moved[0])
-      db.collection('logs').add({
-        ind: this.bibInfoIndex,
-        x: moved[0],
-        y: moved[1],
-        userID: this.userID
-      })
-      this.options.series[1].data.push(moved)
-      this.bibInfoIndex += 1
+      if (this.bibInfoIndex === 49) {
+        this.options.series[0].data.splice(-1, 1)
+        const moved = this.misc[0]
+        console.log(moved)
+        console.log(this.userID)
+        db.collection(this.collectionName).add({
+          ind: this.bibInfoIndex,
+          x: moved[0],
+          y: moved[1],
+          userID: this.uID
+        })
+        this.options.series[1].data.push(moved)
+        alert('実験は終了です．')
+      } else {
+        this.options.series[0].data.splice(-1, 1)
+        this.options.series[0].data.push([0, 0])
+        const moved = this.misc[0]
+        console.log(moved)
+        console.log(this.userID)
+        db.collection(this.collectionName).add({
+          ind: this.bibInfoIndex,
+          x: moved[0],
+          y: moved[1],
+          userID: this.uID
+        })
+        this.options.series[1].data.push(moved)
+        this.bibInfoIndex += 1
+      }
     },
     displayBibInfo() {
-      return this.bibInfo.keys[this.bibInfoIndex]
+      return this.bibInfo.key[this.bibInfoIndex][0]
     }
   },
   created() {
-    this.options.series[0].dataLabal = ref50.keys
-    this.options.series[1].dataLabal = ref50.keys
+    // this.options.series[0].dataLabal = ito50.key
+    // this.options.series[1].dataLabal = ito50.key
+    if (this.$route.path === '/mori') {
+      this.options.series[0].dataLabal = mori50.key
+      this.options.series[1].dataLabal = mori50.key
+      this.bibInfo = mori50
+      this.uID = 0
+      this.collectionName = 'MorishimaLog'
+    } else if (this.$route.path === '/matsu') {
+      this.options.series[0].dataLabal = matsu50.key
+      this.options.series[1].dataLabal = matsu50.key
+      this.bibInfo = matsu50
+      this.uID = 1
+      this.collectionName = 'MatsubaraLog'
+    } else if (this.$route.path === '/ito') {
+      this.options.series[0].dataLabal = ito50.key
+      this.options.series[1].dataLabal = ito50.key
+      this.bibInfo = ito50
+      this.uID = 2
+      this.collectionName = 'ItoLog'
+    }
   }
 }
 </script>

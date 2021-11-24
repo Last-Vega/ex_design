@@ -2,31 +2,23 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import LatentSpace from '../views/LatentSpace.vue'
 // import Login from '../views/Login.vue'
-import LatentIto from '../views/LatentIto.vue'
-import LatentMori from '../views/LatentMori.vue'
-import LatentMatsu from '../views/LatentMatsu.vue'
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/latent',
-    name: 'LatentSpace',
-    component: LatentSpace
-  },
-  {
     path: '/ito',
     name: 'Ito',
-    component: LatentIto
+    component: LatentSpace
   },
   {
     path: '/mori',
     name: 'Mori',
-    component: LatentMori
+    component: LatentSpace
   },
   {
     path: '/matsu',
     name: 'Matsu',
-    component: LatentMatsu
+    component: LatentSpace
   }
 ]
 
