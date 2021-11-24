@@ -82,7 +82,7 @@ import ito50 from '@/assets/ito50.json'
 import matsu50 from '@/assets/matsubara50.json'
 import mori50 from '@/assets/morishima50.json'
 import { db } from '../plugins/firebase'
-import Dialog from '@/components/dialog'
+import Dialog from '@/components/taskInstraction'
 
 export default {
   name: 'DisplayLatentSpace',
