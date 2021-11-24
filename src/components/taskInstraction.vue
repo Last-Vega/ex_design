@@ -47,7 +47,7 @@
 
 <script>
 export default {
-  name: 'dialog',
+  name: 'taskInstraction',
   data() {
     return {
       dialog: false
