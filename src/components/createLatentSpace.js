@@ -17,8 +17,10 @@ var updateIndexList = []
 
 var miscList = []
 
-var reMoved = 0
-var reMovedList = []
+// var reMovedIndexList = []
+// var reMovedList = []
+
+var reMovedObj = {}
 
 const chartOptions = {
   tooltip: {
@@ -130,10 +132,11 @@ const chartOptions = {
             let point = this
             let index = point.index
             if (e.newPoint.x !== undefined) {
+              console.log(e)
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
-              reMoved = index
-              reMovedList = [e.newPoint.x, e.newPoint.y]
-              console.log(miscList)
+              // reMovedIndexList.push(index)
+              // reMovedList = [e.newPoint.x, e.newPoint.y]
+              reMovedObj[index] = [e.newPoint.x, e.newPoint.y]
               updateIndexList.push(index)
             }
           }
@@ -157,4 +160,4 @@ const chartOptions = {
   }
 }
 
-export { tableData, chartOptions, miscList, reMoved, reMovedList }
+export { tableData, chartOptions, miscList, reMovedObj }
