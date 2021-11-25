@@ -64,8 +64,6 @@ const chartOptions = {
       point: {
         events: {
           mouseOver () {
-            // let point = this
-            // let index = point.index
             tableData[0].title = ''
             tableData[0].author = ''
             tableData[0].conference = ''
@@ -74,7 +72,6 @@ const chartOptions = {
           mouseOut () {
             const point = this
             const index = point.index
-            // console.log(chartOptions.series[0].data[index])
             if (chartOptions.series[0].data[index].x !== undefined) {
               chartOptions.series[0].data[index] = [
                 chartOptions.series[0].data[index].x,
@@ -84,15 +81,12 @@ const chartOptions = {
             }
           },
           drop: function (e) {
-            // console.log(e.newPoint)
             const point = this
             const index = point.index
-            // console.log(index)
             if (e.newPoint.x !== undefined) {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
               miscList[index] = [e.newPoint.x, e.newPoint.y]
               console.log(miscList)
-              // chartOptions.series[1].data.push([e.newPoint.x, e.newPoint.y])
               updateIndexList.push(index)
             } else {
               // miscList[index] = [0,0]
@@ -134,8 +128,6 @@ const chartOptions = {
             if (e.newPoint.x !== undefined) {
               console.log(e)
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
-              // reMovedIndexList.push(index)
-              // reMovedList = [e.newPoint.x, e.newPoint.y]
               reMovedObj[index] = [e.newPoint.x, e.newPoint.y]
               updateIndexList.push(index)
             }
