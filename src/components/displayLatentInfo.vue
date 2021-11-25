@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    {{ reMovedObj }}
     <Dialog />
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
@@ -76,7 +77,8 @@
 import {
   tableData,
   chartOptions,
-  miscList
+  miscList,
+  reMovedObj
 } from '@/components/createLatentSpace'
 import ito50 from '@/assets/ito50.json'
 import matsu50 from '@/assets/matsubara50.json'
@@ -104,7 +106,8 @@ export default {
       bibInfoIndex: 0,
       uID: -1,
       misc: miscList,
-      collectionName: ''
+      collectionName: '',
+      reMovedObj: reMovedObj
     }
   },
   methods: {
@@ -123,10 +126,10 @@ export default {
         this.options.series[1].data.push(moved)
         alert('実験は終了です．')
       } else {
+        console.log(reMovedObj)
         this.options.series[0].data.splice(-1, 1)
         this.options.series[0].data.push([0, 0])
         const moved = this.misc[0]
-        console.log(moved)
         console.log(this.userID)
         db.collection(this.collectionName).add({
           ind: this.bibInfoIndex,

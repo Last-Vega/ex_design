@@ -26,7 +26,7 @@
 <script>
 import { db } from '@/plugins/firebase'
 export default {
-  name: 'Register',
+  name: 'LoginUser',
   props: {
     message: String
   },
