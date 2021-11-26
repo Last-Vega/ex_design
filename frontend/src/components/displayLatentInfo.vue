@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    {{ reMovedObj }}
     <Dialog />
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
@@ -121,7 +120,8 @@ export default {
             x: reMovedObj[index][0],
             y: reMovedObj[index][1],
             userID: this.uID,
-            createdAt: now
+            createdAt: now,
+            whichBibInfo: this.bibInfoIndex
           })
           delete reMovedObj[index]
         }
@@ -130,7 +130,7 @@ export default {
         this.options.series[0].data.splice(-1, 1)
         const moved = this.misc[0]
         db.collection(this.collectionName).add({
-          ind: this.bibInfoIndex,
+          ind: parseInt(this.bibInfoIndex, 10),
           x: moved[0],
           y: moved[1],
           userID: this.uID,
@@ -143,7 +143,7 @@ export default {
         this.options.series[0].data.push([0, 0])
         const moved = this.misc[0]
         db.collection(this.collectionName).add({
-          ind: this.bibInfoIndex,
+          ind: parseInt(this.bibInfoIndex, 10),
           x: moved[0],
           y: moved[1],
           userID: this.uID,
