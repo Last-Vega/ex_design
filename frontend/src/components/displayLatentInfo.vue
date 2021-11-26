@@ -107,35 +107,47 @@ export default {
       uID: -1,
       misc: miscList,
       collectionName: '',
+      collectionMovedName: '',
       reMovedObj: reMovedObj
     }
   },
   methods: {
     addZero () {
+      const now = new Date()
+      if (Object.keys(reMovedObj).length !== 0) {
+        for (const index in reMovedObj) {
+          db.collection(this.collectionMovedName).add({
+            ind: index,
+            x: reMovedObj[index][0],
+            y: reMovedObj[index][1],
+            userID: this.uID,
+            createdAt: now
+          })
+          delete reMovedObj[index]
+        }
+      }
       if (this.bibInfoIndex === 49) {
         this.options.series[0].data.splice(-1, 1)
         const moved = this.misc[0]
-        console.log(moved)
-        console.log(this.userID)
         db.collection(this.collectionName).add({
           ind: this.bibInfoIndex,
           x: moved[0],
           y: moved[1],
-          userID: this.uID
+          userID: this.uID,
+          createdAt: now
         })
         this.options.series[1].data.push(moved)
         alert('実験は終了です．')
       } else {
-        console.log(reMovedObj)
         this.options.series[0].data.splice(-1, 1)
         this.options.series[0].data.push([0, 0])
         const moved = this.misc[0]
-        console.log(this.userID)
         db.collection(this.collectionName).add({
           ind: this.bibInfoIndex,
           x: moved[0],
           y: moved[1],
-          userID: this.uID
+          userID: this.uID,
+          createdAt: now
         })
         this.options.series[1].data.push(moved)
         this.bibInfoIndex += 1
@@ -146,26 +158,27 @@ export default {
     }
   },
   created () {
-    // this.options.series[0].dataLabal = ito50.key
-    // this.options.series[1].dataLabal = ito50.key
     if (this.$route.path === '/mori') {
       this.options.series[0].dataLabal = mori50.key
       this.options.series[1].dataLabal = mori50.key
       this.bibInfo = mori50
       this.uID = 0
       this.collectionName = 'MorishimaLog'
+      this.collectionMovedName = 'MorishimaMovedLog'
     } else if (this.$route.path === '/matsu') {
       this.options.series[0].dataLabal = matsu50.key
       this.options.series[1].dataLabal = matsu50.key
       this.bibInfo = matsu50
       this.uID = 1
       this.collectionName = 'MatsubaraLog'
+      this.collectionMovedName = 'MatsubaraMovedLog'
     } else if (this.$route.path === '/ito') {
       this.options.series[0].dataLabal = ito50.key
       this.options.series[1].dataLabal = ito50.key
       this.bibInfo = ito50
       this.uID = 2
       this.collectionName = 'ItoLog'
+      this.collectionMovedName = 'ItoMovedLog'
     }
   }
 }
