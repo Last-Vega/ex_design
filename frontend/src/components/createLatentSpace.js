@@ -17,9 +17,6 @@ var updateIndexList = []
 
 var miscList = []
 
-// var reMovedIndexList = []
-// var reMovedList = []
-
 var reMovedObj = {}
 
 const chartOptions = {
