@@ -79,9 +79,12 @@ import {
   miscList,
   reMovedObj
 } from '@/components/createLatentSpace'
-import ito50 from '@/assets/ito50.json'
-import matsu50 from '@/assets/matsubara50.json'
-import mori50 from '@/assets/morishima50.json'
+// import ito50 from '@/assets/ito50.json'
+// import matsu50 from '@/assets/matsubara50.json'
+// import mori50 from '@/assets/morishima50.json'
+import ito50 from '@/assets/ito50shuffled.json'
+import matsu50 from '@/assets/matsubara50shuffled.json'
+import mori50 from '@/assets/morishima50shuffled.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
 
@@ -116,12 +119,12 @@ export default {
       if (Object.keys(reMovedObj).length !== 0) {
         for (const index in reMovedObj) {
           db.collection(this.collectionMovedName).add({
-            ind: index,
+            ind: parseInt(index, 10),
             x: reMovedObj[index][0],
             y: reMovedObj[index][1],
             userID: this.uID,
             createdAt: now,
-            whichBibInfo: this.bibInfoIndex
+            whichBibInfo: parseInt(this.bibInfoIndex, 10)
           })
           delete reMovedObj[index]
         }
