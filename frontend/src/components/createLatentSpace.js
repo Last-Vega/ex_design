@@ -126,8 +126,8 @@ const chartOptions = {
             const point = this
             const index = point.index
             if (e.newPoint.x !== undefined) {
-              console.log(e)
-              chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
+              console.log(e.newPoint.x)
+              chartOptions.series[1].data[index] = [e.newPoint.x, e.newPoint.y]
               reMovedObj[index] = [e.newPoint.x, e.newPoint.y]
               updateIndexList.push(index)
             }
