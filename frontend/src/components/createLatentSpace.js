@@ -61,16 +61,6 @@ const chartOptions = {
             tableData.conference = ''
             tableData.year = ''
           },
-          mouseOut () {
-            const point = this
-            const index = point.index
-            if (chartOptions.series[0].data[index].x !== undefined) {
-              chartOptions.series[0].data[index] = [
-                chartOptions.series[0].data[index].x,
-                chartOptions.series[0].data[index].y
-              ]
-            }
-          },
           drop: function (e) {
             const point = this
             const index = point.index
@@ -128,11 +118,6 @@ const chartOptions = {
           enabled: false
         }
       }
-      // dragDrop: {
-      //   draggableX: true,
-      //   draggableY: true,
-      //   liveRedraw: true
-      // },
     }
   }
 }
