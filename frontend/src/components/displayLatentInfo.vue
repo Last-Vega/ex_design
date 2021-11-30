@@ -88,7 +88,6 @@ import Dialog from '@/components/taskInstraction'
 export default {
   name: 'DisplayLatentSpace',
   components: {
-    // Instraction
     Dialog
   },
   data () {
