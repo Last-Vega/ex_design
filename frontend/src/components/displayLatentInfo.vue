@@ -58,10 +58,10 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>{{ items[0].title }}</td>
-                  <td>{{ items[0].author }}</td>
-                  <td>{{ items[0].conference }}</td>
-                  <td>{{ items[0].year }}</td>
+                  <td>{{ items.title }}</td>
+                  <td>{{ items.author }}</td>
+                  <td>{{ items.conference }}</td>
+                  <td>{{ items.year }}</td>
                 </tr>
               </tbody>
             </template>
@@ -79,9 +79,6 @@ import {
   miscList,
   reMovedObj
 } from '@/components/createLatentSpace'
-// import ito50 from '@/assets/ito50.json'
-// import matsu50 from '@/assets/matsubara50.json'
-// import mori50 from '@/assets/morishima50.json'
 import ito50 from '@/assets/ito50shuffled.json'
 import matsu50 from '@/assets/matsubara50shuffled.json'
 import mori50 from '@/assets/morishima50shuffled.json'

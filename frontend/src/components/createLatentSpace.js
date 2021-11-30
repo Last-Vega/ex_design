@@ -4,16 +4,12 @@ import draggablePoints from 'highcharts/modules/draggable-points'
 
 More(Highcharts)
 draggablePoints(Highcharts)
-var tableData = [
-  {
-    title: '',
-    author: '',
-    conference: '',
-    year: ''
-  }
-]
-
-var updateIndexList = []
+var tableData = {
+  title: '',
+  author: '',
+  conference: '',
+  year: ''
+}
 
 var miscList = []
 
@@ -49,7 +45,6 @@ const chartOptions = {
     {
       name: '動かす文献',
       data: [[0, 0]],
-      // enableMouseTracking: true,
       dataLabal: [],
       type: 'scatter',
       animation: false,
@@ -61,10 +56,10 @@ const chartOptions = {
       point: {
         events: {
           mouseOver () {
-            tableData[0].title = ''
-            tableData[0].author = ''
-            tableData[0].conference = ''
-            tableData[0].year = ''
+            tableData.title = ''
+            tableData.author = ''
+            tableData.conference = ''
+            tableData.year = ''
           },
           mouseOut () {
             const point = this
@@ -74,7 +69,6 @@ const chartOptions = {
                 chartOptions.series[0].data[index].x,
                 chartOptions.series[0].data[index].y
               ]
-              updateIndexList.push(index)
             }
           },
           drop: function (e) {
@@ -84,11 +78,6 @@ const chartOptions = {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
               miscList[index] = [e.newPoint.x, e.newPoint.y]
               console.log(miscList)
-              updateIndexList.push(index)
-            } else {
-              // miscList[index] = [0,0]
-              // // chartOptions.series[1].data.push([0, 0])
-              // updateIndexList.push(index)
             }
           }
         }
@@ -111,13 +100,13 @@ const chartOptions = {
           mouseOver () {
             const point = this
             const index = point.index
-            tableData[0].title =
+            tableData.title =
               chartOptions.series[1].dataLabal[index][0].title
-            tableData[0].author =
+            tableData.author =
               chartOptions.series[1].dataLabal[index][0].author
-            tableData[0].conference =
+            tableData.conference =
               chartOptions.series[1].dataLabal[index][0].conference
-            tableData[0].year = chartOptions.series[1].dataLabal[index][0].year
+            tableData.year = chartOptions.series[1].dataLabal[index][0].year
           },
           drop: function (e) {
             const point = this
@@ -126,7 +115,6 @@ const chartOptions = {
               console.log(e.newPoint.x)
               chartOptions.series[1].data[index] = [e.newPoint.x, e.newPoint.y]
               reMovedObj[index] = [e.newPoint.x, e.newPoint.y]
-              updateIndexList.push(index)
             }
           }
         }
