@@ -13,7 +13,7 @@
   "dependencies": {
     "core-js": "^3.19.2",
     "firebase": "^9.5.0",
-    "highcharts": "^9.3.1",
+    "highcharts": "^9.3.2",
     "highcharts-draggable-points": "^2.0.10",
     "highcharts-vue": "^1.4.0",
     "vue": "^2.6.11",
