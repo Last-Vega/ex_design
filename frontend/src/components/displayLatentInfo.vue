@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <Dialog />
-    {{bibInfoIndex}}
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
     </section>
