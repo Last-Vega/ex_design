@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <Dialog />
+    {{bibInfoIndex}}
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
     </section>
@@ -82,6 +83,7 @@ import {
 import ito50 from '@/assets/ito50shuffled.json'
 import matsu50 from '@/assets/matsubara50shuffled.json'
 import mori50 from '@/assets/morishima50shuffled.json'
+import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
 
@@ -110,11 +112,11 @@ export default {
     }
   },
   methods: {
-    addZero () {
+    async addZero () {
       const now = new Date()
       if (Object.keys(reMovedObj).length !== 0) {
         for (const index in reMovedObj) {
-          db.collection(this.collectionMovedName).add({
+          await db.collection(this.collectionMovedName).add({
             ind: parseInt(index, 10),
             x: reMovedObj[index][0],
             y: reMovedObj[index][1],
@@ -128,7 +130,7 @@ export default {
       if (this.bibInfoIndex === 49) {
         this.options.series[0].data.splice(-1, 1)
         const moved = this.misc[0]
-        db.collection(this.collectionName).add({
+        await db.collection(this.collectionName).add({
           ind: parseInt(this.bibInfoIndex, 10),
           x: moved[0],
           y: moved[1],
@@ -141,7 +143,7 @@ export default {
         this.options.series[0].data.splice(-1, 1)
         this.options.series[0].data.push([0, 0])
         const moved = this.misc[0]
-        db.collection(this.collectionName).add({
+        await db.collection(this.collectionName).add({
           ind: parseInt(this.bibInfoIndex, 10),
           x: moved[0],
           y: moved[1],
@@ -150,6 +152,7 @@ export default {
         })
         this.options.series[1].data.push(moved)
         this.bibInfoIndex += 1
+        console.log(this.options.series[1].data)
       }
     },
     displayBibInfo () {
@@ -178,6 +181,14 @@ export default {
       this.uID = 2
       this.collectionName = 'ItoLog'
       this.collectionMovedName = 'ItoMovedLog'
+    } else if (this.$route.path === '/tutorial') {
+      this.options.series[0].dataLabal = tutorial50.key
+      this.options.series[1].dataLabal = tutorial50.key
+      this.bibInfo = tutorial50
+      this.uID = 3
+      this.collectionName = 'tutorialLog'
+      this.collectionMovedName = 'tutorialMovedLog'
+      console.log(this.options.series[1].dataLabal)
     }
   }
 }

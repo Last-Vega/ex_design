@@ -67,7 +67,7 @@ const chartOptions = {
             if (e.newPoint.x !== undefined) {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
               miscList[index] = [e.newPoint.x, e.newPoint.y]
-              console.log(miscList)
+              // console.log(miscList)
             }
           }
         }
@@ -102,7 +102,7 @@ const chartOptions = {
             const point = this
             const index = point.index
             if (e.newPoint.x !== undefined) {
-              console.log(e.newPoint.x)
+              // console.log(e.newPoint.x)
               chartOptions.series[1].data[index] = [e.newPoint.x, e.newPoint.y]
               reMovedObj[index] = [e.newPoint.x, e.newPoint.y]
             }

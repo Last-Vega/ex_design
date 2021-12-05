@@ -19,6 +19,11 @@ const routes = [
     path: '/matsu',
     name: 'Matsu',
     component: LatentSpace
+  },
+  {
+    path: '/tutorial',
+    name: 'tutorial',
+    component: LatentSpace
   }
 ]
 
