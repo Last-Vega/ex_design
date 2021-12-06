@@ -121,6 +121,7 @@ export default {
             y: reMovedObj[index][1],
             userID: this.uID,
             createdAt: now,
+            title: this.bibInfo.key[index][0].title,
             whichBibInfo: parseInt(this.bibInfoIndex, 10)
           })
           delete reMovedObj[index]
@@ -134,6 +135,7 @@ export default {
           x: moved[0],
           y: moved[1],
           userID: this.uID,
+          title: this.bibInfo.key[this.bibInfoIndex][0].title,
           createdAt: now
         })
         this.options.series[1].data.push(moved)
@@ -147,6 +149,7 @@ export default {
           x: moved[0],
           y: moved[1],
           userID: this.uID,
+          title: this.bibInfo.key[this.bibInfoIndex][0].title,
           createdAt: now
         })
         this.options.series[1].data.push(moved)
