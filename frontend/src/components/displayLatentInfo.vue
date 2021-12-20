@@ -46,7 +46,7 @@
           <v-simple-table>
             <template v-slot:default>
               <caption>
-                マウスがホバーした文献
+                動かした文献
               </caption>
               <thead>
                 <tr>
@@ -79,9 +79,9 @@ import {
   miscList,
   reMovedObj
 } from '@/components/createLatentSpace'
-import ito50 from '@/assets/ito50shuffled.json'
-import matsu50 from '@/assets/matsubara50shuffled.json'
-import mori50 from '@/assets/morishima50shuffled.json'
+import ito50 from '@/assets/ito50shuffled2.json'
+import matsu50 from '@/assets/matsubara50shuffled2.json'
+import mori50 from '@/assets/morishima50shuffled2.json'
 import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
@@ -167,22 +167,22 @@ export default {
       this.options.series[1].dataLabal = mori50.key
       this.bibInfo = mori50
       this.uID = 0
-      this.collectionName = 'MorishimaLog'
-      this.collectionMovedName = 'MorishimaMovedLog'
+      this.collectionName = 'MorishimaLog2'
+      this.collectionMovedName = 'MorishimaMovedLog2'
     } else if (this.$route.path === '/matsu') {
       this.options.series[0].dataLabal = matsu50.key
       this.options.series[1].dataLabal = matsu50.key
       this.bibInfo = matsu50
       this.uID = 1
-      this.collectionName = 'MatsubaraLog'
-      this.collectionMovedName = 'MatsubaraMovedLog'
+      this.collectionName = 'MatsubaraLog2'
+      this.collectionMovedName = 'MatsubaraMovedLog2'
     } else if (this.$route.path === '/ito') {
       this.options.series[0].dataLabal = ito50.key
       this.options.series[1].dataLabal = ito50.key
       this.bibInfo = ito50
       this.uID = 2
-      this.collectionName = 'ItoLog'
-      this.collectionMovedName = 'ItoMovedLog'
+      this.collectionName = 'ItoLog2'
+      this.collectionMovedName = 'ItoMovedLog2'
     } else if (this.$route.path === '/tutorial') {
       this.options.series[0].dataLabal = tutorial50.key
       this.options.series[1].dataLabal = tutorial50.key

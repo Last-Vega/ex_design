@@ -1,0 +1,404 @@
+{
+  "key": [
+    [
+      {
+        "title": "Foundations of Crowd Data Sourcing",
+        "author": "Yael Amsterdamer and\nTova Milo",
+        "conference": "{SIGMOD} Record",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "Online team formation in social networks",
+        "author": "Aris Anagnostopoulos and\nLuca Becchetti and\nCarlos Castillo and\nAristides Gionis and\nStefano Leonardi",
+        "conference": "Proceedings of the 21st World Wide Web Conference 2012, {WWW} 2012,\nLyon, France, April 16-20, 2012",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Crowdsourcing worker development based on probabilistic task network",
+        "author": "Masayuki Ashikawa and\nTakahiro Kawamura and\nAkihiko Ohsuga",
+        "conference": "Proceedings of the International Conference on Web Intelligence, Leipzig,\nGermany, August 23-26, 2017",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Spatial Crowdsourcing: Challenges and Opportunities",
+        "author": "Lei Chen and\nCyrus Shahabi",
+        "conference": "{IEEE} Data Eng. Bull.",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "The specificity of the search template",
+        "author": "Mary J. Bravo and Hany Farid",
+        "conference": "Journal of Vision",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "Data Analysis Competition Platform for Educational Purposes: Lessons Learned and Future Challenges",
+        "author": "Baba, Yukino and Takase, Tomoumi and  Atarashi, Kyohei and Oyama, Satoshi and Kashima, Hisashi",
+        "conference": "Eighth Symposium on Educational Advances in Artificial Intelligence (EAAI)",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Crowdsourcing with unsure option",
+        "author": "Ding, Yao-Xiang\nand Zhou, Zhi-Hua",
+        "conference": "Machine Learning",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Toward Worker-Centric Crowdsourcing",
+        "author": "Sihem Amer{-}Yahia and\nSenjuti Basu Roy",
+        "conference": "{IEEE} Data Eng. Bull.",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Condition-Task-Store: {A} Declarative Abstraction for Microtask-basedComplex Crowd-sourcing",
+        "author": "Kenji Gonnokami and\nAtsuyuki Morishima and\nHiroyuki Kitagawa",
+        "conference": "Proceedings of the First {VLDB} Workshop on Databases and Crowdsourcing,\nDBCrowd 2013, Riva del Garda, Trento, Italy, August 26, 2013",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Updates in Human-AI Teams: Understanding and Addressing the Performance/Compatibility Tradeoff",
+        "author": "G. Bansal and  B. Nushi and E. Kamar and D. S. Weld and W. S. Lasecki and E. Horvitz",
+        "conference": "Proceedings of the Thirty-Third {AAAI} Conference on Artificial Intelligence,\n(AAAI-19)",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Using Worker Self-Assessments for Competence-Based Pre-Selection in Crowdsourcing Microtasks",
+        "author": "Gadiraju, Ujwal and Fetahu, Besnik and Kawase, Ricardo and Siehndel, Patrick and Dietze, Stefan",
+        "conference": "ACM Trans. Comput.-Hum. Interact.",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs",
+        "author": "George, D. and Lehrach, W. and Kansky, K. and L{\\'a}zaro-Gredilla, M. and Laan, C. and Marthi, B. and Lou, X. and Meng, Z. and Liu, Y. and Wang, H. and Lavin, A. and Phoenix, D. S.",
+        "conference": "Science",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Crowdsourcing Information Systems - Definition, Typology, and Design",
+        "author": "David Geiger and\nMichael Rosemann and\nErwin Fielt and\nMartin Schader",
+        "conference": "Proceedings of the International Conference on Information Systems,\n{ICIS} 2012, Orlando, Florida, USA, December 16-19, 2012",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Quality Control in Crowdsourcing: A Survey of Quality Attributes, Assessment Techniques, and Assurance Actions",
+        "author": "Daniel, Florian and Kucherbaev, Pavel and Cappiello, Cinzia and Benatallah, Boualem and Allahbakhsh, Mohammad",
+        "conference": "ACM Comput. Surv.",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Heterogeneous Stream Processing and Crowdsourcing for Urban TrafficManagement",
+        "author": "Alexander Artikis and\nMatthias Weidlich and\nFran{\\c{c}}ois Schnitzler and\nIoannis Boutsis and\nThomas Liebig and\nNico Piatkowski and\nChristian Bockermann and\nKatharina Morik and\nVana Kalogeraki and\nJakub Marecek and\nAvigdor Gal and\nShie Mannor and\nDimitrios Gunopulos and\nDermot Kinane",
+        "conference": "Proceedings of the 17th International Conference on Extending Database\nTechnology, {EDBT} 2014, Athens, Greece, March 24-28, 2014.",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "CrowdDB: answering queries with crowdsourcing",
+        "author": "Michael J. Franklin and\nDonald Kossmann and\nTim Kraska and\nSukriti Ramesh and\nReynold Xin",
+        "conference": "Proceedings of the {ACM} {SIGMOD} International Conference on Management\nof Data, {SIGMOD} 2011, Athens, Greece, June 12-16, 2011",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Visual Search and Stimulus Similarity",
+        "author": "Duncan, John and W. Humphreys, Glyn",
+        "conference": "Psychological review",
+        "year": "1989"
+      }
+    ],
+    [
+      {
+        "title": "An Empirical Study on Short- and Long-Term Effects of Self-Correctionin Crowdsourced Microtasks",
+        "author": "Masaki Kobayashi and\nHiromi Morita and\nMasaki Matsubara and\nNobuyuki Shimizu and\nAtsuyuki Morishima",
+        "conference": "Proceedings of the Sixth {AAAI} Conference on Human Computation and\nCrowdsourcing, {HCOMP} 2018, Z{\\\"{u}}rich, Switzerland, July\n5-8, 2018",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Flock: Hybrid Crowd-Machine Learning Classifiers",
+        "author": "Cheng, Justin and Bernstein, Michael S.",
+        "conference": "Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work \\&\\#38; Social Computing",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Expert Systems: Perils and Promise",
+        "author": "Daniel G. Bobrow and\nSanjay Mittal and\nMark Stefik",
+        "conference": "Commun. {ACM}",
+        "year": "1986"
+      }
+    ],
+    [
+      {
+        "title": "Analytic Methods for Optimizing Realtime Crowdsourcing",
+        "author": "Michael S. Bernstein and\nDavid R. Karger and\nRobert C. Miller and\nJoel Brandt",
+        "conference": "CoRR",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Foundations of Databases",
+        "author": "Serge Abiteboul and\nRichard Hull and\nVictor Vianu",
+        "conference": "Science",
+        "year": "1995"
+      }
+    ],
+    [
+      {
+        "title": "Demographics and Dynamics of Mechanical Turk Workers",
+        "author": "Djellel Eddine Difallah and\nElena Filatova and\nPanos Ipeirotis",
+        "conference": "Proceedings of the Eleventh {ACM} International Conference on Web\nSearch and Data Mining, {WSDM} 2018, Marina Del Rey, CA, USA, February\n5-9, 2018",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Decision-Theoretic Control of Crowd-Sourced Workflows",
+        "author": "Peng Dai and\nMausam and\nDaniel S. Weld",
+        "conference": "Proceedings of the Twenty-Fourth {AAAI} Conference on Artificial Intelligence,\n{AAAI} 2010, Atlanta, Georgia, USA, July 11-15, 2010",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "Crowdsourcing Systems on the World-Wide Web",
+        "author": "Doan, Anhai and Ramakrishnan, Raghu and Halevy, Alon Y.",
+        "conference": "Commun. ACM",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Towards Task Recommendation in Micro-Task Markets",
+        "author": "Vamshi Ambati and\nStephan Vogel and\nJaime G. Carbonell",
+        "conference": "Human Computation, Papers from the 2011 {AAAI} Workshop, San Francisco,\nCalifornia, USA, August 8, 2011",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Fairness and Transparency in Crowdsourcing",
+        "author": "Ria Mae Borromeo and\nThomas Laurent and\nMotomichi Toyama and\nSihem Amer{-}Yahia",
+        "conference": "Proceedings of the 20th International Conference on Extending Database\nTechnology, {EDBT} 2017, Venice, Italy, March 21-24, 2017.",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Average Is Over: Powering America Beyond the Age of the Great Stagnation",
+        "author": "Cowen, T.",
+        "conference": "Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work \\&\\#38; Social Computing",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Verbosity: a game for collecting common-sense facts",
+        "author": "Luis von Ahn and\nMihir Kedia and\nManuel Blum",
+        "conference": "Proceedings of the 2006 Conference on Human Factors in Computing Systems,\n{CHI} 2006, Montr{\\'{e}}al, Qu{\\'{e}}bec, Canada, April\n22-27, 2006",
+        "year": "2006"
+      }
+    ],
+    [
+      {
+        "title": "And Now for Something Completely Different: Improving Crowdsourcing Workflows with Micro-Diversions",
+        "author": "Dai, Peng and Rzeszotarski, Jeffrey M. and Paritosh, Praveen and Chi, Ed H.",
+        "conference": "Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work \\&\\#38; Social Computing",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Whom to Ask?: Jury Selection for Decision Making Tasks on Micro-blog Services",
+        "author": "Cao, Caleb Chen and She, Jieying and Tong, Yongxin and Chen, Lei",
+        "conference": "Proc. VLDB Endow.",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "The Crowd is a Collaborative Network",
+        "author": "Mary L. Gray and\nSiddharth Suri and\nSyed Shoaib Ali and\nDeepti Kulkarni",
+        "conference": "Proceedings of the 19th {ACM} Conference on Computer-Supported Cooperative\nWork {\\&} Social Computing, {CSCW} 2016, San Francisco, CA, USA,\nFebruary 27 - March 2, 2016",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Crowds in two seconds: enabling realtime crowd-powered interfaces",
+        "author": "Michael S. Bernstein and\nJoel Brandt and\nRobert C. Miller and\nDavid R. Karger",
+        "conference": "Proceedings of the 24th Annual {ACM} Symposium on User Interface Software\nand Technology, Santa Barbara, CA, USA, October 16-19, 2011",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "reCAPTCHA: Human-Based Character Recognition via Web Security Measures",
+        "author": "von Ahn, Luis and Maurer, Benjamin and McMillen, Colin and Abraham, David and Blum, Manuel",
+        "conference": "Science",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "Conceptual Modeling Method for Separation of Concerns and Integrationof Structure and Behavior",
+        "author": "Remigijus Gustas and\nPrima Gustien{\\'{e}}",
+        "conference": "{IJISMD}",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Parallel Algorithms and Architectures for Rule-Based Systems",
+        "author": "Anoop Gupta and\nCharles Forgy and\nAllen Newell and\nRobert G. Wedig",
+        "conference": "Proceedings of the 13th Annual Symposium on Computer Architecture,\nTokyo, Japan, June 1986",
+        "year": "1986"
+      }
+    ],
+    [
+      {
+        "title": "{ESP:} Labeling Images with a Computer Game",
+        "author": "Luis von Ahn and\nLaura Dabbish",
+        "conference": "Knowledge Collection from Volunteer Contributors, Papers from the\n2005 {AAAI} Spring Symposium, Technical Report SS-05-03, Stanford,\nCalifornia, USA, March 21-23, 2005",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "oTree-An open-source platform for laboratory, online, and field experiments",
+        "author": "Daniel L. Chen and Martin Schonger and Chris Wickens",
+        "conference": "Journal of Behavioral and Experimental Finance",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Soylent: a word processor with a crowd inside",
+        "author": "Michael S. Bernstein and\nGreg Little and\nRobert C. Miller and\nBj{\\\"{o}}rn Hartmann and\nMark S. Ackerman and\nDavid R. Karger and\nDavid Crowell and\nKatrina Panovich",
+        "conference": "Proceedings of the 23rd Annual {ACM} Symposium on User Interface Software\nand Technology, New York, NY, USA, October 3-6, 2010",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "Consistency of weighted majority votes",
+        "author": "Daniel Berend and Aryeh Kontorovitch",
+        "conference": "Advances in Neural Information Processing Systems 27",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "Debugging a Crowdsourced Task with Low Inter-Rater Agreement",
+        "author": "Alonso, Omar and Marshall, Catherine C. and Najork, Marc",
+        "conference": "Proceedings of the 15th ACM/IEEE-CS Joint Conference on Digital Libraries",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "AI Gets a Brain",
+        "author": "Barr, Jeff and Cabrera, Luis Felipe",
+        "conference": "Queue",
+        "year": "2006"
+      }
+    ],
+    [
+      {
+        "title": "Game Aspect: An Approach to Separation of Concerns in CrowdsourcedData Management",
+        "author": "Shun Fukusumi and\nAtsuyuki Morishima and\nHiroyuki Kitagawa",
+        "conference": "Advanced Information Systems Engineering - 27th International Conference,\nCAiSE 2015, Stockholm, Sweden, June 8-12, 2015, Proceedings",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Training Workers for Improving Performance in Crowdsourcing Microtasks",
+        "author": "Gadiraju, Ujwal\nand Fetahu, Besnik\nand Kawase, Ricardo",
+        "conference": "Design for Teaching and Learning in a Networked World",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Soylent: A Word Processor with a Crowd Inside",
+        "author": "Bernstein, Michael S. and Little, Greg and Miller, Robert C. and Hartmann, Bj\\\"{o}rn and Ackerman, Mark S. and Karger, David R. and Crowell, David and Panovich, Katrina",
+        "conference": "Commun. ACM",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Statistical quality estimation for general crowdsourcing tasks",
+        "author": "Yukino Baba and\nHisashi Kashima",
+        "conference": "The 19th {ACM} {SIGKDD} International Conference on Knowledge Discovery\nand Data Mining, {KDD} 2013, Chicago, IL, USA, August 11-14, 2013",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Designing games with a purpose",
+        "author": "Luis von Ahn and\nLaura Dabbish",
+        "conference": "Commun. {ACM}",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "Shepherding the Crowd Yields Better Work",
+        "author": "Dow, Steven and Kulkarni, Anand and Klemmer, Scott and Hartmann, Bj\\\"{o}rn",
+        "conference": "Proceedings of the ACM 2012 Conference on Computer Supported Cooperative Work",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm",
+        "author": "A. P. Dawid and A. M. Skene",
+        "conference": "Journal of the Royal Statistical Society. Series C (Applied Statistics)",
+        "year": "1979"
+      }
+    ],
+    [
+      {
+        "title": "Citizen-Centered Governance: The Mayor's Office of New Urban Mechanics and the Evolution of CRM in Boston",
+        "author": "Susan P. Crawford and Dana Walters",
+        "conference": "Berkman Center Research Publication",
+        "year": "2013"
+      }
+    ]
+  ]
+}
