@@ -1,0 +1,404 @@
+{
+  "key": [
+    [
+      {
+        "title": "Efficient identification of web communities",
+        "author": "Flake, Gary William and Lawrence, Steve and Giles, C Lee",
+        "conference": "Proceedings of the sixth ACM SIGKDD international conference on Knowledge discovery and data mining",
+        "year": "2000"
+      }
+    ],
+    [
+      {
+        "title": "Latent Dirichlet Allocation",
+        "author": "David M. Blei and\nAndrew Y. Ng and\nMichael I. Jordan",
+        "conference": "Journal of Machine Learning Research",
+        "year": "2003"
+      }
+    ],
+    [
+      {
+        "title": "Utopian: User-driven topic modeling based on interactive nonnegative matrix factorization",
+        "author": "Choo, Jaegul and Lee, Changhyun and Reddy, Chandan K and Park, Haesun",
+        "conference": "IEEE transactions on visualization and computer graphics",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Overlapping community detection at scale: a nonnegative matrix factorization approach",
+        "author": "Yang, Jaewon and Leskovec, Jure",
+        "conference": "Proceedings of the sixth ACM international conference on Web search and data mining",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Non-negative matrix factorization for face recognition",
+        "author": "Guillamet, David and Vitri{\\`a}, Jordi",
+        "conference": "Topics in artificial intelligence",
+        "year": "2002"
+      }
+    ],
+    [
+      {
+        "title": "Community detection in networks with node attributes",
+        "author": "Yang, Jaewon and McAuley, Julian and Leskovec, Jure",
+        "conference": "2013 IEEE 13th International Conference on Data Mining",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Probabilistic Latent Semantic Indexing",
+        "author": "Thomas Hofmann",
+        "conference": "{SIGIR} '99: Proceedings of the 22nd Annual International {ACM} {SIGIR}\nConference on Research and Development in Information Retrieval, Berkeley, CA, {USA}",
+        "year": "1999"
+      }
+    ],
+    [
+      {
+        "title": "Simultaneous discovery of common and discriminative topics via joint nonnegative matrix factorization",
+        "author": "Kim, Hannah and Choo, Jaegul and Kim, Jingu and Reddy, Chandan K and Park, Haesun",
+        "conference": "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Relational Topic Models for Document Networks.",
+        "author": "Chang, Jonathan and Blei, David M",
+        "conference": "AIStats",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "Consistency of community detection in networks under degree-corrected stochastic block models",
+        "author": "Zhao, Yunpeng and Levina, Elizaveta and Zhu, Ji and others",
+        "conference": "The Annals of Statistics",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Relation between PLSA and NMF and implications",
+        "author": "Gaussier, Eric and Goutte, Cyril",
+        "conference": "Proceedings of the 28th annual international ACM SIGIR conference on Research and development in information retrieval",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "Manifold adaptive experimental design for text categorization",
+        "author": "Cai, Deng and He, Xiaofei",
+        "conference": "IEEE Transactions on Knowledge and Data Engineering",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Community Detection and Correlated Attribute Cluster Analysis on Multi-AttributedGraphs",
+        "author": "Hiroyoshi Ito and\nTakahiro Komamizu and\nToshiyuki Amagasa and\nHiroyuki Kitagawa",
+        "conference": "Proceedings of the Workshops of the {EDBT/ICDT} 2018 Joint Conference\n{(EDBT/ICDT} 2018), Vienna, Austria, March 26, 2018.",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "An LDA-based Community Structure Discovery Approach for Large-Scale Social Networks.",
+        "author": "Zhang, Haizheng and Qiu, Baojun and Giles, C Lee and Foley, Henry C and Yen, John",
+        "conference": "ISI",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "Topic-link LDA: joint models of topic and author community",
+        "author": "Liu, Yan and Niculescu-Mizil, Alexandru and Gryc, Wojciech",
+        "conference": "proceedings of the 26th annual international conference on machine learning",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "Document clustering based on non-negative matrix factorization",
+        "author": "Wei Xu and\nXin Liu and\nYihong Gong",
+        "conference": "{SIGIR} 2003: Proceedings of the 26th Annual International {ACM} {SIGIR}\nConference on Research and Development in Information Retrieval, Toronto, Canada",
+        "year": "2003"
+      }
+    ],
+    [
+      {
+        "title": "Community structure in social and biological networks",
+        "author": "Girvan, Michelle and Newman, Mark EJ",
+        "conference": "Proceedings of the national academy of sciences",
+        "year": "2002"
+      }
+    ],
+    [
+      {
+        "title": "Graph regularized nonnegative matrix factorization for data representation",
+        "author": "Cai, Deng and He, Xiaofei and Han, Jiawei and Huang, Thomas S",
+        "conference": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Ranking-based clustering of heterogeneous information networks with star network schema",
+        "author": "Sun, Yizhou and Yu, Yintao and Han, Jiawei",
+        "conference": "Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "Mixed membership stochastic blockmodels",
+        "author": "Airoldi, Edoardo M and Blei, David M and Fienberg, Stephen E and Xing, Eric P",
+        "conference": "Journal of Machine Learning Research",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "HINMF: A Matrix Factorization Method for Clustering in Heterogeneous Information Networks",
+        "author": "Liu,Jialu and Han,Jiawei",
+        "conference": "Proceedings of the international joint conference on artificial intelligence workshop",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Nonnegative matrix factorization by joint locality-constrained and \u2113 2, 1-norm regularization",
+        "author": "Xing, Ling and Dong, Hao and Jiang, Wei and Tang, Kewei",
+        "conference": "Multimedia Tools and Applications",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Multi-assignment clustering for boolean data",
+        "author": "Frank, Mario and Streich, Andreas P and Basin, David and Buhmann, Joachim M",
+        "conference": "Journal of Machine Learning Research",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Learning the parts of objects by non-negative matrix factorization",
+        "author": "Lee, Daniel D and Seung, H Sebastian",
+        "conference": "Nature",
+        "year": "1999"
+      }
+    ],
+    [
+      {
+        "title": "Latent community topic analysis: integration of community discovery with topic modeling",
+        "author": "Yin, Zhijun and Cao, Liangliang and Gu, Quanquan and Han, Jiawei",
+        "conference": "ACM Transactions on Intelligent Systems and Technology (TIST)",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Non-negative matrix factor deconvolution; extraction of multiple sound sources from monophonic inputs",
+        "author": "Smaragdis, Paris",
+        "conference": "Independent Component Analysis and Blind Signal Separation",
+        "year": "2004"
+      }
+    ],
+    [
+      {
+        "title": "Citation recommendation without author supervision",
+        "author": "He, Qi and Kifer, Daniel and Pei, Jian and Mitra, Prasenjit and Giles, C Lee",
+        "conference": "Proceedings of the fourth ACM international conference on Web search and data mining",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Community discovery in social networks: Applications, methods and emerging trends",
+        "author": "Parthasarathy, Srinivasan and Ruan, Yiye and Satuluri, Venu",
+        "conference": "Social network data analytics",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "RankClus: integrating clustering with ranking for heterogeneous informationnetwork analysis",
+        "author": "Yizhou Sun and\nJiawei Han and\nPeixiang Zhao and\nZhijun Yin and\nHong Cheng and\nTianyi Wu",
+        "conference": "{EDBT} 2009, 12th International Conference on Extending Database Technology,\nSaint Petersburg, Russia",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "Nonnegative matrix tri-factorization with graph regularization for community detection in social networks",
+        "author": "Chakraborty, Yulong Pei1 Nilanjan and Sycara, Katia",
+        "conference": "Proceedings of the Twenty-Third international joint conference on Artificial Intelligence",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "On the equivalence between non-negative matrix factorization and probabilistic latent semantic indexing",
+        "author": "Ding, Chris and Li, Tao and Peng, Wei",
+        "conference": "Computational Statistics \\& Data Analysis",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "Modeling topic diffusion in multi-relational bibliographic information networks",
+        "author": "Gui, Huan and Sun, Yizhou and Han, Jiawei and Brova, George",
+        "conference": "Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "Stochastic block model and community detection in sparse graphs: A spectral algorithm with optimal rate of recovery",
+        "author": "Chin, Peter and Rao, Anup and Vu, Van",
+        "conference": "Conference on Learning Theory",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Optimizing semantic coherence in topic models",
+        "author": "Mimno, David and Wallach, Hanna M and Talley, Edmund and Leenders, Miriam and McCallum, Andrew",
+        "conference": "Proceedings of the conference on empirical methods in natural language processing",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Symmetric nonnegative matrix factorization for graph clustering",
+        "author": "Kuang, Da and Ding, Chris and Park, Haesun",
+        "conference": "Proceedings of the 2012 SIAM International Conference on Data Mining",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "The Hungarian method for the assignment problem",
+        "author": "Kuhn, Harold W",
+        "conference": "Naval research logistics quarterly",
+        "year": "1955"
+      }
+    ],
+    [
+      {
+        "title": "Link communities reveal multiscale complexity in networks",
+        "author": "Ahn, Yong-Yeol and Bagrow, James P. and Lehmann, Sune",
+        "conference": "Nature",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "The author-topic model for authors and documents",
+        "author": "Rosen-Zvi, Michal and Griffiths, Thomas and Steyvers, Mark and Smyth, Padhraic",
+        "conference": "Proceedings of the 20th conference on Uncertainty in artificial intelligence",
+        "year": "2004"
+      }
+    ],
+    [
+      {
+        "title": "An Optimization Scheme for Non-Negative Matrix Factorization Under Probability Constraints",
+        "author": "Ito, Hiroyoshi and Amagasa, Toshiyuki",
+        "conference": "2019 IEEE International Conference on Big Data and Smart Computing (BigComp)",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Community discovery using nonnegative matrix factorization",
+        "author": "Wang, Fei and Li, Tao and Wang, Xin and Zhu, Shenghuo and Ding, Chris",
+        "conference": "Data Mining and Knowledge Discovery",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Nonnegative matrix factorization and probabilistic latent semantic indexing: Equivalence chi-square statistic, and a hybrid method",
+        "author": "Ding, Chris and Li, Tao and Peng, Wei",
+        "conference": "AAAI",
+        "year": "2006"
+      }
+    ],
+    [
+      {
+        "title": "Overlapping community detection using bayesian non-negative matrix factorization",
+        "author": "Psorakis, Ioannis and Roberts, Stephen and Ebden, Mark and Sheldon, Ben",
+        "conference": "Physical Review E",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "Orthogonal nonnegative matrix t-factorizations for clustering",
+        "author": "Ding, Chris and Li, Tao and Peng, Wei and Park, Haesun",
+        "conference": "Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining",
+        "year": "2006"
+      }
+    ],
+    [
+      {
+        "title": "Multi-view clustering via joint nonnegative matrix factorization",
+        "author": "Liu, Jialu and Wang, Chi and Gao, Jing and Han, Jiawei",
+        "conference": "Proceedings of the 2013 SIAM International Conference on Data Mining",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Probabilistic Non-Negative Matrix Factorization and Its Robust Extensions for Topic Modeling.",
+        "author": "Luo, Minnan and Nie, Feiping and Chang, Xiaojun and Yang, Yi and Hauptmann, Alexander G and Zheng, Qinghua",
+        "conference": "AAAI",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Semantic community identification in large attribute networks",
+        "author": "Wang, Xiao and Jin, Di and Cao, Xiaochun and Yang, Liang and Zhang, Weixiong",
+        "conference": "AAAI",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Algorithms for non-negative matrix factorization",
+        "author": "Lee, Daniel D and Seung, H Sebastian",
+        "conference": "Advances in neural information processing systems",
+        "year": "2001"
+      }
+    ],
+    [
+      {
+        "title": "Short-Text Topic Modeling via Non-negative Matrix Factorization Enriched with Local Word-Context Correlations",
+        "author": "Shi, Tian and Kang, Kyeongpil and Choo, Jaegul and Reddy, Chandan K",
+        "conference": "Proceedings of the 2018 World Wide Web Conference on World Wide Web",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Normalized cuts and image segmentation",
+        "author": "Shi, Jianbo and Malik, Jitendra",
+        "conference": "IEEE Transactions on pattern analysis and machine intelligence",
+        "year": "2000"
+      }
+    ],
+    [
+      {
+        "title": "Nonnegative matrix factorizations as probabilistic inference in composite models",
+        "author": "F{\\'e}votte, C{\\'e}dric and Cemgil, A Taylan",
+        "conference": "Signal Processing Conference, 2009 17th European",
+        "year": "2009"
+      }
+    ]
+  ]
+}

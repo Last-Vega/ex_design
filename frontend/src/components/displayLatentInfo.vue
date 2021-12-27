@@ -79,9 +79,12 @@ import {
   miscList,
   reMovedObj
 } from '@/components/createLatentSpace'
-import ito50 from '@/assets/ito50shuffled2.json'
-import matsu50 from '@/assets/matsubara50shuffled2.json'
-import mori50 from '@/assets/morishima50shuffled2.json'
+// import ito50 from '@/assets/ito50shuffled2.json'
+// import matsu50 from '@/assets/matsubara50shuffled2.json'
+// import mori50 from '@/assets/morishima50shuffled2.json'
+import ito50 from '@/assets/ito50shuffled3.json'
+import matsu50 from '@/assets/matsubara50shuffled3.json'
+import mori50 from '@/assets/morishima50shuffled3.json'
 import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
@@ -167,22 +170,22 @@ export default {
       this.options.series[1].dataLabal = mori50.key
       this.bibInfo = mori50
       this.uID = 0
-      this.collectionName = 'MorishimaLog2'
-      this.collectionMovedName = 'MorishimaMovedLog2'
+      this.collectionName = 'MorishimaLog3'
+      this.collectionMovedName = 'MorishimaMovedLog3'
     } else if (this.$route.path === '/matsu') {
       this.options.series[0].dataLabal = matsu50.key
       this.options.series[1].dataLabal = matsu50.key
       this.bibInfo = matsu50
       this.uID = 1
-      this.collectionName = 'MatsubaraLog2'
-      this.collectionMovedName = 'MatsubaraMovedLog2'
+      this.collectionName = 'MatsubaraLog3'
+      this.collectionMovedName = 'MatsubaraMovedLog3'
     } else if (this.$route.path === '/ito') {
       this.options.series[0].dataLabal = ito50.key
       this.options.series[1].dataLabal = ito50.key
       this.bibInfo = ito50
       this.uID = 2
-      this.collectionName = 'ItoLog2'
-      this.collectionMovedName = 'ItoMovedLog2'
+      this.collectionName = 'ItoLog3'
+      this.collectionMovedName = 'ItoMovedLog3'
     } else if (this.$route.path === '/tutorial') {
       this.options.series[0].dataLabal = tutorial50.key
       this.options.series[1].dataLabal = tutorial50.key
