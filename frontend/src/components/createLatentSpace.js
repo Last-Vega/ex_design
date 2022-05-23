@@ -1,6 +1,7 @@
 import Highcharts from 'highcharts'
 import More from 'highcharts/highcharts-more'
 import draggablePoints from 'highcharts/modules/draggable-points'
+// import bibInfoIndex from '@/components/displayLatentInfo'
 
 More(Highcharts)
 draggablePoints(Highcharts)
@@ -15,19 +16,61 @@ var miscList = []
 
 var reMovedObj = {}
 
+function makeTable (title, authors, conference, year) {
+  return `<table>
+  <tr>
+    <th>Title</th><td>${title}</td>
+  </tr>
+  <tr>
+    <th>Authors</th><td>${authors}</td>
+  </tr>
+  <tr>
+    <th>Conference</th><td>${conference}</td>
+  </tr>
+  <tr>
+    <th>Year</th><td>${year}</td>
+  </tr>
+  </table>`
+}
+
 const chartOptions = {
   tooltip: {
-    valueDecimals: 9
+    valueDecimals: 9,
+    useHTML: true,
+    formatter: function () {
+      if (this.series.userOptions.name === 'Moved Documents') {
+        const index = this.series.data.indexOf(this.point)
+        const title = chartOptions.series[1].dataLabal[index][0].title
+        const authors = chartOptions.series[1].dataLabal[index][0].author
+        const conference = chartOptions.series[1].dataLabal[index][0].conference
+        const year = chartOptions.series[1].dataLabal[index][0].year
+        const kye = makeTable(title, authors, conference, year)
+        return kye
+      } else {
+        return 'Please move this dot to any position you like.'
+      }
+    }
   },
   xAxis: {
     min: -1,
     max: 1,
-    gridLineWidth: 1,
+    gridLineWidth: 3,
+    labels: {
+      style: {
+        fontSize: '14px'
+      }
+    },
     tickPixelInterval: 25
   },
   yAxis: {
     min: -1,
     max: 1,
+    gridLineWidth: 3,
+    labels: {
+      style: {
+        fontSize: '14px'
+      }
+    },
     tickPixelInterval: 50
   },
   legend: {
@@ -39,11 +82,11 @@ const chartOptions = {
     borderWidth: 1
   },
   title: {
-    text: '潜在空間'
+    text: 'Latent Space'
   },
   series: [
     {
-      name: '動かす文献',
+      name: 'Operating Documents',
       data: [[0, 0]],
       dataLabal: [],
       type: 'scatter',
@@ -64,6 +107,7 @@ const chartOptions = {
           drop: function (e) {
             const point = this
             const index = point.index
+            console.log(index)
             if (e.newPoint.x !== undefined) {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
               miscList[index] = [e.newPoint.x, e.newPoint.y]
@@ -74,7 +118,7 @@ const chartOptions = {
       }
     },
     {
-      name: '動かした文献',
+      name: 'Moved Documents',
       data: [],
       dataLabal: [],
       type: 'scatter',

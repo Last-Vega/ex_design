@@ -7,6 +7,7 @@
         <router-link to="/mori">森嶋先生</router-link><br /><br />
         <router-link to="/matsu">松原先生</router-link><br /><br />
         <router-link to="/ito">伊藤先生</router-link><br /><br />
+        <router-link to="/kim">Kim先生</router-link><br /><br />
         <router-link to="/tutorial">チュートリアル</router-link><br /><br />
       </v-container>
     </v-main>

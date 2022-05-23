@@ -10,7 +10,7 @@
           <v-simple-table>
             <template v-slot:default>
               <caption>
-                動かす文献
+                Operating Document
               </caption>
               <thead>
                 <tr>
@@ -38,15 +38,15 @@
             outlined
             v-on:click="addZero"
           >
-            次の文献を動かす
+            Move Next Document
           </v-btn>
         </v-col>
         <v-col cols="12" sm="2"> </v-col>
-        <v-col cols="12" sm="5">
+        <!-- <v-col cols="12" sm="5">
           <v-simple-table>
             <template v-slot:default>
               <caption>
-                動かした文献
+                Moved Document
               </caption>
               <thead>
                 <tr>
@@ -66,7 +66,7 @@
               </tbody>
             </template>
           </v-simple-table>
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-container>
   </v-app>
@@ -85,6 +85,7 @@ import {
 import ito50 from '@/assets/ito50shuffled3.json'
 import matsu50 from '@/assets/matsubara50shuffled3.json'
 import mori50 from '@/assets/morishima50shuffled3.json'
+import kim50 from '@/assets/kim50shuffled.json'
 import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
@@ -194,6 +195,13 @@ export default {
       this.collectionName = 'tutorialLog'
       this.collectionMovedName = 'tutorialMovedLog'
       console.log(this.options.series[1].dataLabal)
+    } else if (this.$route.path === '/kim') {
+      this.options.series[0].dataLabal = kim50.key
+      this.options.series[1].dataLabal = kim50.key
+      this.bibInfo = kim50
+      this.uID = 4
+      this.collectionName = 'KimLog'
+      this.collectionMovedName = 'KimMovedLog'
     }
   }
 }
