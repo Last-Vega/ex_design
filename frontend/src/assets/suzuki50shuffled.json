@@ -1,0 +1,380 @@
+{
+  "key": [
+    [
+      {
+        "title": "Automatic extraction of shapes using {sheXer}",
+        "author": "Fernandez-Álvarez, D. and Labra-Gayo, J.E. and Gayo-Avello, D.",
+        "conference": "Knowledge-Based Systems",
+        "year": "2022"
+      }
+    ],
+    [
+      {
+        "title": "On the Satisfiability Problem for {SPARQL} Patterns",
+        "author": "Xiaowang Zhang and Jan Van den Bussche",
+        "conference": "Journal of Artificial Intelligence Research",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Filtering unsatisfiable {XPath} queries",
+        "author": "Jinghua Groppe and Sven Groppe",
+        "conference": "Data \\& Knowledge Engineering",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "Modeling and validating HL7 FHIR profiles using semantic web Shape Expressions (ShEx)",
+        "author": "Solbrig, H.R. and Prud'hommeaux, E. and Grieve, G. and McKenzie, L. and Mandel, J.C. and Sharma, D.K. and Jiang, G.",
+        "conference": "Journal of Biomedical Informatics",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Approximation Algorithms",
+        "author": "Vijay V. Vazirani",
+        "conference": "Proc. PODS 2012",
+        "year": "2003"
+      }
+    ],
+    [
+      {
+        "title": "Complexity results for bandwidth minimization",
+        "author": "M. R. Garey and R. L. Graham and D. S. Johnson and D. E. Knuth",
+        "conference": "SIAM J. Appl. Math.",
+        "year": "1978"
+      }
+    ],
+    [
+      {
+        "title": "The Abstract Theory of Automata",
+        "author": "V. M. Glushkov",
+        "conference": "Russian Math.\\ Surveys",
+        "year": "1961"
+      }
+    ],
+    [
+      {
+        "title": "One-unambiguous regular languages",
+        "author": "Anne Br\\\"{u}ggenmann-Klein and D. Wood",
+        "conference": "Information and Computation",
+        "year": "1998"
+      }
+    ],
+    [
+      {
+        "title": "Semantics and Validation of Shapes Schemas for {RDF}",
+        "author": "Iovka Boneva and Jose E. Labra Gayo and Eric G. Prud’hommeaux",
+        "conference": "International Semantic Web Conference",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Automated Refactoring for Size Reduction of {CSS} Style Sheets",
+        "author": "Bosch, Mart\\'{\\i} and Genev\\`{e}s, Pierre and Laya\\\"{\\i}ida, Nabil",
+        "conference": "Proceedings of the 2014 ACM Symposium on Document Engineering",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "Task assignment optimization in knowledge-intensive crowdsourcing",
+        "author": "Senjuti Basu Roy and Ioanna Lykourentzou and Saravanan Thirumuruganathan and Sihem Amer-Yahia and Gautam Das",
+        "conference": "The VLDB Journal",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Finding all minimum-cost perfect matchings in Bipartite graphs",
+        "author": "Fukuda, Komei and Matsui, Tomomi",
+        "conference": "Networks",
+        "year": "1992"
+      }
+    ],
+    [
+      {
+        "title": "Foundations of Crowd Data Sourcing",
+        "author": "Amsterdamer, Yael and Milo, Tova",
+        "conference": "SIGMOD Record",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Complexity and Expressiveness of {ShEx} for {RDF}",
+        "author": "Slawek Staworko and\nIovka Boneva and\nJos{\\'{e}} Emilio Labra Gayo and\nSamuel Hym and\nEric G. Prud'hommeaux and\nHarold R. Solbrig",
+        "conference": "Proc.\\ 18th In-ternational Conference on\nDatabase Theory ({ICDT} 2015)",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "On the Complexity of Mining Itemsets from the Crowd Using Taxonomies",
+        "author": "Antoine Amarilli1 and Yael Amsterdamer1 and Tova Milo",
+        "conference": "Proc. ICDT",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "Validating {RDF} Data",
+        "author": "Gayo, J.E.L. and Prud'hommeaux, E. and Boneva, I. and Kontokostas, D.",
+        "conference": "Synthesis Lectures on the Semantic Web: Theory and Technology",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Reducing the Bandwidth of Sparse Symmetric Matrices",
+        "author": "Cuthill, E. and McKee, J.",
+        "conference": "Proceedings of the 1969 24th National Conference",
+        "year": "1969"
+      }
+    ],
+    [
+      {
+        "title": "Reasoning with Style",
+        "author": "Bosch, Mart\\'{\\i} and Genev\\`{e}s, Pierre and Laya\\\"{\\i}da, Nabil",
+        "conference": "Proceedings of the 24th International Conference on Artificial Intelligence",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "Regular expressions and state graphs for automata",
+        "author": "R. McNaughton, H. Yamada",
+        "conference": "IRA Trans. Electron. Comput.",
+        "year": "1960"
+      }
+    ],
+    [
+      {
+        "title": "Schema Validation and Evolution for Graph Databases",
+        "author": "Bonifati, Angela and Furniss, Peter and Green, Alastair and Harmer, Russ and Oshurko, Eugenia and Voigt, Hannes",
+        "conference": "Proc.\\ 38th International Conference on Conceptual Modeling (ER 2019)",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Optimized Group Formation for Solving Collaborative Tasks",
+        "author": "Rahman, Habibur and Roy, Senjuti Basu and Thirumuruganathan, Saravanan and Amer-Yahia, Sihem and Das, Gautam",
+        "conference": "The VLDB Journal",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Graph summarization with bounded error",
+        "author": "Navlakha, Saket and Rastogi, Rajeev and Shrivastava, Nisheeth",
+        "conference": "Proceedings of the 2008 {ACM} {SIGMOD} International Conference on Management of Data",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "Containment of Shape Expression Schemas for RDF",
+        "author": "Staworko, S\\l{}awek and Wieczorek, Piotr",
+        "conference": "Proc.\\ the 38th ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "On the Satisfiability Problem for SPARQL Patterns",
+        "author": "Xiaowang Zhang and Jan Van den Bussche and Francois Picalausa",
+        "conference": "Journal of Artificial Intelligence Research",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Word Problems Requiring Exponential Time (Preliminary Report)",
+        "author": "Stockmeyer, L. J. and Meyer, A. R.",
+        "conference": "Proceedings of the Fifth Annual ACM Symposium on Theory of Computing",
+        "year": "1973"
+      }
+    ],
+    [
+      {
+        "title": "Discovering Refactoring Opportunities in Cascading Style Sheets",
+        "author": "Mazinanian, Davood and Tsantalis, Nikolaos and Mesbah, Ali",
+        "conference": "Proceedings of the 22Nd ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "Automated Analysis of CSS Rules to Support Style Maintenance",
+        "author": "Mesbah, Ali and Mirshokraie, Shabnam",
+        "conference": "Proceedings of the 34th International Conference on Software Engineering",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "The Complexity of Evaluating Path Expressions in SPARQL",
+        "author": "Losemann, Katja and Martens, Wim",
+        "conference": "Proc. PODS 2012",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "Satisfiability of {XPath} on data trees",
+        "author": "Diego Figueira",
+        "conference": "ACM SIGLOG News",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Algorithms for enumerating all perfect, maximum and maximal matchings in bipartite graphs",
+        "author": "Uno, Takeaki",
+        "conference": "Algorithms and Computation",
+        "year": "1997"
+      }
+    ],
+    [
+      {
+        "title": "Multi-Objective Stable Matching and Distributional Constraints",
+        "author": "Gharote, Mangesh and Phuke, Nitin and Patil, Rahul and Lodha, Sachin",
+        "conference": "Soft Comput.",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Using Shape Expressions ({ShEx}) to Share {RDF} Data Models and to Guide Curation with Rigorous Validation",
+        "author": "Thornton, Katherine\nand Solbrig, Harold\nand Stupp, Gregory S.\nand Labra Gayo, Jose Emilio\nand Mietchen, Daniel\nand Prud'hommeaux, Eric\nand Waagmeester, Andra",
+        "conference": "Proc.\\ the European Semantic Web Conference",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "{XPath} Satisfiability with Parent Axes or Qualifiers Is Tractable underMany of Real-World {DTDs}",
+        "author": "Yasunori Ishihara and\nNobutaka Suzuki and\nKenji Hashimoto and\nShougo Shimizu and\nToru Fujiwara",
+        "conference": "Proceedings of the 14th International Symposium on Database Programming\nLanguages {(DBPL} 2013), August 30, 2013, Riva del Garda, Trento,\nItaly.",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Computers and Intractability - A Guide to the Theory of NP-Completeness",
+        "author": "M.R. Garey and D.S. Johnson",
+        "conference": "Proc. PODS 2012",
+        "year": "1979"
+      }
+    ],
+    [
+      {
+        "title": "{SPARQL Query Containment with ShEx Constraints}",
+        "author": "Abbas, Abdullah and Genev{\\`e}s, Pierre and Roisin, C{\\'e}cile and Laya{\\\"i}da, Nabil",
+        "conference": "{ADBIS 2017 - 21st European Conference on Advances in Databases and Information Systems }",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Many-to-many matching: stable polyandrous polygamy (or polygamous polyandry)",
+        "author": "Mourad Baiou and Michel Balinski",
+        "conference": "Discrete Applied Mathematics",
+        "year": "2000"
+      }
+    ],
+    [
+      {
+        "title": "Regular expressions into finite automata",
+        "author": "Anne Br\\\"{u}ggenmann-Klein",
+        "conference": "Theoretical Computer Science",
+        "year": "1993"
+      }
+    ],
+    [
+      {
+        "title": "NP-completeness of several arrangement problems",
+        "author": "S. Even and Y. Shiloach",
+        "conference": "Proceedings of the 1969 24th National Conference",
+        "year": "1975"
+      }
+    ],
+    [
+      {
+        "title": "Migrating Cascading Style Sheets to Preprocessors by Introducing Mixins",
+        "author": "Mazinanian, Davood and Tsantalis, Nikolaos",
+        "conference": "Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Computational Complexity",
+        "author": "Christos H. Papadimitriou",
+        "conference": "Proc. PODS 2012",
+        "year": "1994"
+      }
+    ],
+    [
+      {
+        "title": "SP2Bench: A SPARQL Performance Benchmark",
+        "author": "Schmidt, Michael and Hornung, Thomas and Lausen, Georg and Pinkel, Christoph",
+        "conference": "Proc. ICDE 2009",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "Detecting Redundant {CSS} Rules in {HTML5} Applications: A Tree Rewriting Approach",
+        "author": "Hague, Matthew and Lin, Anthony W. and Ong, C.-H. Luke",
+        "conference": "SIGPLAN Not.",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "{XPath} Satisfiability in the Presence of {DTDs}",
+        "author": "Benedikt, Michael and Fan, Wenfei and Geerts, Floris",
+        "conference": "Journal of the ACM",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "Querying Graph Databases",
+        "author": "Barcel\\'{o} Baeza, Pablo",
+        "conference": "Proc. PODS 2013",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Development of a FHIR RDF data transformation and validation framework and its evaluation",
+        "author": "Prud'hommeaux, E. and Collins, J. and Booth, D. and Peterson, K.J. and Solbrig, H.R. and Jiang, G.",
+        "conference": "Journal of Biomedical Informatics",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "On the Analysis of Cascading Style Sheets",
+        "author": "Geneves, Pierre and Layaida, Nabil and Quint, Vincent",
+        "conference": "Proceedings of the 21st International Conference on World Wide Web",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "The Complexity of Regular Expressions and Property Paths in SPARQL",
+        "author": "Losemann, Katja and Martens, Wim",
+        "conference": "ACM Trans. Database Syst.",
+        "year": "2013"
+      }
+    ]
+  ]
+}

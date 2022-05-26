@@ -141,6 +141,7 @@ const chartOptions = {
             tableData.conference =
               chartOptions.series[1].dataLabal[index][0].conference
             tableData.year = chartOptions.series[1].dataLabal[index][0].year
+            console.log(index)
           },
           drop: function (e) {
             const point = this

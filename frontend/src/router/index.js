@@ -26,8 +26,13 @@ const routes = [
     component: LatentSpace
   },
   {
-    path: '/kim',
-    name: 'Kim',
+    path: '/suzu',
+    name: 'Suzu',
+    component: LatentSpace
+  },
+  {
+    path: '/waka',
+    name: 'Waka',
     component: LatentSpace
   }
 ]

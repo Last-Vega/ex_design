@@ -86,6 +86,8 @@ import ito50 from '@/assets/ito50shuffled3.json'
 import matsu50 from '@/assets/matsubara50shuffled3.json'
 import mori50 from '@/assets/morishima50shuffled3.json'
 import kim50 from '@/assets/kim50shuffled.json'
+import waka50 from '@/assets/wakaba50shuffled.json'
+import suzu50 from '@/assets/suzuki50shuffled.json'
 import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
@@ -131,7 +133,7 @@ export default {
           delete reMovedObj[index]
         }
       }
-      if (this.bibInfoIndex === 49) {
+      if (this.bibInfoIndex === this.options.series[1].dataLabal.length - 1) {
         this.options.series[0].data.splice(-1, 1)
         const moved = this.misc[0]
         await db.collection(this.collectionName).add({
@@ -202,6 +204,20 @@ export default {
       this.uID = 4
       this.collectionName = 'KimLog'
       this.collectionMovedName = 'KimMovedLog'
+    } else if (this.$route.path === '/suzu') {
+      this.options.series[0].dataLabal = suzu50.key
+      this.options.series[1].dataLabal = suzu50.key
+      this.bibInfo = suzu50
+      this.uID = 5
+      this.collectionName = 'SuzuLog'
+      this.collectionMovedName = 'SuzuMovedLog'
+    } else if (this.$route.path === '/waka') {
+      this.options.series[0].dataLabal = waka50.key
+      this.options.series[1].dataLabal = waka50.key
+      this.bibInfo = waka50
+      this.uID = 6
+      this.collectionName = 'WakaLog'
+      this.collectionMovedName = 'WakaMovedLog'
     }
   }
 }

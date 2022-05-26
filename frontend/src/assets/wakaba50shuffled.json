@@ -1,0 +1,404 @@
+{
+  "key": [
+    [
+      {
+        "title": "Gunrock 2.0: A User Adaptive Social Conversational System",
+        "author": "Liang, Kaihui and Chau, Austin and Li, Yu and Lu, Xueyuan and Yu, Dian and Zhou, Mingyang and Jain, Ishan and Davidson, Sam and Arnold, Josh and Nguyen, Minh and Yu, Zhou",
+        "conference": "Journal of Language Evolution",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "Emergence and evolution of language in multi-agent systems",
+        "author": "Lipowska, Dorota and Lipowski, Adam",
+        "conference": "Lingua",
+        "year": "2022"
+      }
+    ],
+    [
+      {
+        "title": "Are Emojis Predictable?",
+        "author": "Barbieri, Francesco and Ballesteros, Miguel and Saggion, Horacio",
+        "conference": "Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Dawn of the transformer era in speech emotion recognition: closing the valence gap",
+        "author": "Wagner, Johannes and Triantafyllopoulos, Andreas and Wierstorf, Hagen and Schmitt, Maximilian and Burkhardt, Felix and Eyben, Florian and Schuller, Bj{\\\"o}rn W",
+        "conference": "Proceedings of the 15th {ACM} international conference on Information and knowledge management",
+        "year": "2022"
+      }
+    ],
+    [
+      {
+        "title": "Cyclic association rules",
+        "author": "Ozden, B and Ramaswamy, S and Silberschatz, A",
+        "conference": "Proceedings 14th International Conference on Data Engineering",
+        "year": "1998"
+      }
+    ],
+    [
+      {
+        "title": "Robust periodicity detection algorithms",
+        "author": "Parthasarathy, S and Mehta, S and Srinivasan, S",
+        "conference": "Proceedings of the 15th {ACM} international conference on Information and knowledge management",
+        "year": "2006"
+      }
+    ],
+    [
+      {
+        "title": "Grammatical Error Correction with Transformer Models",
+        "author": "Scribendi, A I",
+        "conference": "Scribendi {AI}",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "Bringing Context into Emoji Recommendations (poster)",
+        "author": "Kim, Joon-Gyum and Gong, Taesik and Huang, Evey and Kim, Juho and Lee, Sung-Ju and Kim, Bogoan and Park, Jaeyeon and Kim, Woojeong and Han, Kyungsik and Ko, Jeonggil",
+        "conference": "Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Iterated learning and the evolution of language",
+        "author": "Kirby, Simon and Griffiths, Tom and Smith, Kenny",
+        "conference": "Curr. Opin. Neurobiol.",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{SleepEEGNet}: Automated Sleep Stage Scoring with Sequence to Sequence Deep Learning Approach",
+        "author": "Mousavi, Sajad and Afghah, Fatemeh and Rajendra Acharya, U",
+        "conference": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning ({{EMNLP}-{C}o{NLL}})",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "On the use of rough set theory for mining periodic frequent patterns",
+        "author": "Samoliya, Manjeet and {Department of CSE \\& IT, Madhav Institute of Technology and Science, Gwalior (M.P), 474005, India} and Tiwari, Akhilesh",
+        "conference": "Int. j. inf. technol. comput. sci.",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Analysis of various periodicity detection algorithms in time series data with design of new algorithm",
+        "author": "Hatkar, Shital P and Kadam, S H and A H, Syed",
+        "conference": "Int. j. comput. appl. technol. res.",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "Emotion Analysis of Twitter Data That Use Emoticons and Emoji Ideograms",
+        "author": "Wolny, Wies{\\l}aw",
+        "conference": "International Conference on Information Systems Development ({ISD})",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "{DIALOGPT} : {Large-Scale} Generative Pre-training for Conversational Response Generation",
+        "author": "Zhang, Yizhe and Sun, Siqi and Galley, Michel and Chen, Yen-Chun and Brockett, Chris and Gao, Xiang and Gao, Jianfeng and Liu, Jingjing and Dolan, Bill",
+        "conference": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "Bayesian Nonparametric Hidden {Semi-Markov} Models",
+        "author": "Johnson, Matthew J and Willsky, Alan S",
+        "conference": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning ({{EMNLP}-{C}o{NLL}})",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "How agents see things: On visual representations in an emergent language game",
+        "author": "Bouchacourt, Diane and Baroni, Marco",
+        "conference": "Proceedings 14th International Conference on Data Engineering",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Periodic subgraph mining in dynamic networks",
+        "author": "Lahiri, Mayank and Berger-Wolf, Tanya Y",
+        "conference": "Knowl. Inf. Syst.",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "Emotion recognition on twitter: Comparative study and training a unison model",
+        "author": "Colneric, Niko and Demsar, Janez",
+        "conference": "IEEE Trans. Affect. Comput.",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "Empirical Analysis of Training Strategies of Transformer-based Japanese Chit-chat Systems",
+        "author": "Sugiyama, Hiroaki and Mizukami, Masahiro and Arimoto, Tsunehiro and Narimatsu, Hiromi and Chiba, Yuya and Nakajima, Hideharu and Meguro, Toyomi",
+        "conference": "arXiv [cs.CL]",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "Emergent {Multi-Agent} Communication in the Deep Learning Era",
+        "author": "Lazaridou, Angeliki and Baroni, Marco",
+        "conference": "Proceedings of the 15th {ACM} international conference on Information and knowledge management",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "Periodic Topic Mining from Massive Amounts of Data",
+        "author": "Ishida, Kazunari",
+        "conference": "2010 International Conference on Technologies and Applications of Artificial Intelligence",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "Varying linguistic purposes of emoji in (Twitter) context",
+        "author": "Na'aman, Noa and Provenza, Hannah and Montoya, Orion",
+        "conference": "Proceedings of {ACL} 2017, student research workshop",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "How agents see things: On visual representations in an emergent language game",
+        "author": "Bouchacourt, Diane and Baroni, Marco",
+        "conference": "Proceedings of the 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Improving the {Performance-Compatibility} Tradeoff with Personalized Objective Functions",
+        "author": "Martinez, Jonathan and Gal, Kobi and Kamar, Ece and Lelis, Levi H S",
+        "conference": "AAAI",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "Mining user similarity based on routine activities",
+        "author": "Lv, Mingqi and Chen, Ling and Chen, Gencai",
+        "conference": "Inf. Sci.",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "The Infinite {PCFG} Using Hierarchical {D}irichlet Processes",
+        "author": "Liang, Percy and Petrov, Slav and Jordan, Michael and Klein, Dan",
+        "conference": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning ({{EMNLP}-{C}o{NLL}})",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "Active inference and epistemic value",
+        "author": "Friston, Karl and Rigoli, Francesco and Ognibene, Dimitri and Mathys, Christoph and Fitzgerald, Thomas and Pezzulo, Giovanni",
+        "conference": "Cogn. Neurosci.",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "The emergence of verse templates through iterated learning",
+        "author": "deCastro-Arrazola, Varuṇ and Kirby, Simon",
+        "conference": "Journal of Language Evolution",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Rumor Detection on Social Media with {Bi-Directional} Graph Convolutional Networks",
+        "author": "Bian, Tian and Xiao, Xi and Xu, Tingyang and Zhao, Peilin and Huang, Wenbing and Rong, Yu and Huang, Junzhou",
+        "conference": "Proceedings 14th International Conference on Data Engineering",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "Supervised sequential pattern mining of event sequences in sport to identify important patterns of play: An application to rugby union",
+        "author": "Bunker, Rory and Fujii, Keisuke and Hanada, Hiroyuki and Takeuchi, Ichiro",
+        "conference": "PLoS One",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "Sentiment of Emojis",
+        "author": "Kralj Novak, Petra and Smailovi{\\'c}, Jasmina and Sluban, Borut and Mozeti{\\v c}, Igor",
+        "conference": "PLoS One",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "{Multi-Agent} Cooperation and the Emergence of (Natural) Language",
+        "author": "Lazaridou, Angeliki and Peysakhovich, Alexander and Baroni, Marco",
+        "conference": "Proceedings of the 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "Attention Is All You Need",
+        "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, Lukasz and Polosukhin, Illia",
+        "conference": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning ({{EMNLP}-{C}o{NLL}})",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Efficient mining of partial periodic patterns in time series database",
+        "author": "Han, Jiawei and Dong, Guozhu and Yin, Yiwen",
+        "conference": "Proceedings 15th International Conference on Data Engineering (Cat. {No.99CB36337})",
+        "year": "1999"
+      }
+    ],
+    [
+      {
+        "title": "Deep learning-based sequential pattern mining for progressive database",
+        "author": "Jamshed, Aatif and Mallick, Bhawna and Kumar, Pramod",
+        "conference": "Soft Computing",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{SMCA}: a general model for mining asynchronous periodic patterns in temporal databases",
+        "author": "Huang, Kuo-Yu and Chang, Chia-Hui",
+        "conference": "IEEE Trans. Knowl. Data Eng.",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "Pchatbot: A {Large-Scale} Dataset for Personalized Chatbot",
+        "author": "Qian, Hongjin and Li, Xiaohe and Zhong, Hanxun and Guo, Yu and Ma, Yueyuan and Zhu, Yutao and Liu, Zhanliang and Dou, Zhicheng and Wen, Ji-Rong",
+        "conference": "Proceedings of the 44th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "wav2vec 2.0: A Framework for {Self-Supervised} Learning of Speech Representations",
+        "author": "Baevski, Alexei and Zhou, Henry and Mohamed, Abdelrahman and Auli, Michael",
+        "conference": "Proceedings of the 15th {ACM} international conference on Information and knowledge management",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "An Enhanced Apriori Algorithm for Discovering Frequent Patterns with Optimal Number of Scans",
+        "author": "Tirumalasetty, Sudhir and Jadda, Aruna and Edara, Sreenivasa Reddy",
+        "conference": "Proceedings 14th International Conference on Data Engineering",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "How Much Context is Useful in Emoji Prediction?",
+        "author": "Bu{\\v s}ic, Hrvoje and Spajic, Ante and {\\v S}ucurovic, Nika",
+        "conference": "Text Analysis and Retrieval 2018 Course Project Reports",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Discovering partial periodic-frequent patterns in a transactional database",
+        "author": "Kiran, R Uday and Venkatesh, J N and Toyoda, Masashi and Kitsuregawa, Masaru and Reddy, P Krishna",
+        "conference": "J. Syst. Softw.",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "Semeval 2018 task 2: Multilingual emoji prediction",
+        "author": "Barbieri, Francesco and Camacho-Collados, Jose and Ronzano, Francesco and Espinosa Anke, Luis and Ballesteros, Miguel and Basile, Valerio and Patti, Viviana and Saggion, Horacio and {Others}",
+        "conference": "12th International Workshop on Semantic Evaluation ({SemEval} 2018)",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "What Does Your Tweet Emotion Mean? Neural Emoji Prediction for Sentiment Analysis",
+        "author": "Tomihira, Toshiki and Otsuka, Atsushi and Yamashita, Akihiro and Satoh, Tetsuji",
+        "conference": "Proceedings of the 20th International Conference on Information Integration and Web-based Applications \\& Services",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Design \\& Implementation of Efficient Periodicity Mining Technique for Time Series Data",
+        "author": "Saneep, Khanna and Swapnil, Kasurkar",
+        "conference": "International Journal of Advanced Research in Computer and Communication Engineering",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "A new and efficient algorithm to look for periodic patterns on spatio-temporal databases",
+        "author": "Guti{\\'e}rrez-Soto, Claudio and Guti{\\'e}rrez-Bunster, Tatiana and Fuentes, Guillermo",
+        "conference": "J. Intell. Fuzzy Syst.",
+        "year": "2022"
+      }
+    ],
+    [
+      {
+        "title": "Emergence of Grounded Compositional Language in {Multi-Agent} Populations",
+        "author": "Mordatch, Igor and Abbeel, Pieter",
+        "conference": "AAAI",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "Why is combinatorial communication rare in the natural world, and why is language an exception to this trend?",
+        "author": "Scott-Phillips, Thomas C and Blythe, Richard A",
+        "conference": "J. R. Soc. Interface",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "Analyzing Incorporation of Emotion in Emoji Prediction",
+        "author": "Hayati, Shirley Anugrah and Muis, Aldrian Obaja",
+        "conference": "Proceedings of the Tenth Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "Structured Learning for Context-aware Spoken Language Understanding of Robotic Commands",
+        "author": "Vanzo, Andrea and Croce, Danilo and Basili, Roberto and Nardi, Daniele",
+        "conference": "Proceedings of the First Workshop on Language Grounding for Robotics",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "``Blissfully Happy'' or ``Ready toFight'': Varying Interpretations of Emoji",
+        "author": "Miller, Hannah Jean and Thebault-Spieker, Jacob and Chang, Shuo and Johnson, Isaac and Terveen, Loren and Hecht, Brent",
+        "conference": "Tenth International {AAAI} Conference on Web and Social Media",
+        "year": "2016"
+      }
+    ]
+  ]
+}
