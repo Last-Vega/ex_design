@@ -34,6 +34,16 @@ const routes = [
     path: '/waka',
     name: 'Waka',
     component: LatentSpace
+  },
+  {
+    path: '/hira',
+    name: 'hira',
+    component: LatentSpace
+  },
+  {
+    path: '/ono',
+    name: 'ono',
+    component: LatentSpace
   }
 ]
 

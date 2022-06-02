@@ -10,6 +10,8 @@
         <router-link to="/kim">Kim先生</router-link><br /><br />
         <router-link to="/waka">若林先生</router-link><br /><br />
         <router-link to="/suzu">鈴木先生</router-link><br /><br />
+        <router-link to="/hira">平木先生</router-link><br /><br />
+        <router-link to="/ono">小野先生</router-link><br /><br />
         <router-link to="/tutorial">チュートリアル</router-link><br /><br />
       </v-container>
     </v-main>

@@ -1,0 +1,404 @@
+{
+  "key": [
+    [
+      {
+        "title": "{RFIG Lamps : Interacting with a Self-Describing World via Photosensing Wireless Tags and Projectors}",
+        "author": "Raskar, Ramesh and Beardsley, Paul and van Baar, Jeroen and Wang, Yao and Dietz, Paul and Lee, Johnny and Leigh, Darren and Willwacher, Thomas",
+        "conference": "ACM Transactions on Graphics",
+        "year": "2004"
+      }
+    ],
+    [
+      {
+        "title": "{Projection-based Localization and Navigation Method for Multiple Mobile Robots with Pixel-level Visible Light Communication}",
+        "author": "Hiraki, Takefumi and Fukushima, Shogo and Naemura, Takeshi",
+        "conference": "2016 IEEE/SICE International Symposium on System Integration (SII)",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "{Explicit Coordinated Localization Using Common Visual Objects}",
+        "author": "Peula, J M and Cebolla, J and Urdiales, C and Sandoval, F",
+        "conference": "Proceedings of 2010 IEEE International Conference on Robotics and Automation",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "{Metric localization using a single artificial landmark for indoor mobile robots}",
+        "author": "Jang, Gijeong and Kim, Sungho and Kim, Jeongho and Kweon, Inso",
+        "conference": "Proceedings of 2005 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "{Lumitrack: Low Cost, High Precision, High Speed Tracking with Projected m-Sequences}",
+        "author": "Xiao, Robert and Harrison, Chris and Willis, Karl D.D. and Poupyrev, Ivan and Hudson, Scott E.",
+        "conference": "Proceedings of the 26th annual ACM symposium on User interface software and technology - UIST '13",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "{Image processing based indoor localization system}",
+        "author": "Kilinc, Orkun and Kucukyildiz, Gurkan and Karakaya, Suat and Ocak, Hasan",
+        "conference": "Proceedings of 22nd Signal Processing and Communications Applications Conference",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{Augmented Coliseum: An Augmented Game Environment with Small Vehicles}",
+        "author": "Kojima, Minoru and Sugimoto, Maki and Nakamura, Akihiro and Tomita, Masahiro and Inami, Masahiko and Nii, Hideaki and Inami, Masahiko and Nii, Hideaki",
+        "conference": "Proceedings of First IEEE International Workshop on Horizontal Interactive Human-Computer Systems - TABLETOP '06",
+        "year": "2006"
+      }
+    ],
+    [
+      {
+        "title": "{Multi-Robot System for Artistic Pattern Formation}",
+        "author": "Alonso-Mora, Javier and Breitenmoser, Andreas and Rufli, Martin and Siegwart, Roland and Beardsley, Paul",
+        "conference": "Proceedings of 2011 IEEE International Conference on Robotics and Automation",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "{Fast Light for Display , Sensing and Control Applications}",
+        "author": "Mcdowall, Ian and Bolas, Mark",
+        "conference": "Proceedings of IEEE VR 2005 Workshop on Emerging Display Technologies",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "{Ant-like task allocation and recruitment in cooperative robots}",
+        "author": "Keller, Laurent and Krieger, Michael J. B. and Billeter, Jean-Bernard",
+        "conference": "Nature",
+        "year": "2000"
+      }
+    ],
+    [
+      {
+        "title": "{Physical Objects as Bidirectional User Interface Elements}",
+        "author": "Rosenfeld, D. and Zawadzki, M. and Sudol, J. and Perlin, K.",
+        "conference": "IEEE Computer Graphics and Applications",
+        "year": "2004"
+      }
+    ],
+    [
+      {
+        "title": "{The Actuated Workbench: Computer-Controlled Actuation in Tabletop Tangible Interfaces}",
+        "author": "Pangaro, Gian and Maynes-Aminzade, Dan and Ishii, Hiroshi",
+        "conference": "Proceedings of the 15th annual ACM symposium on User interface software and technology - UIST '02",
+        "year": "2002"
+      }
+    ],
+    [
+      {
+        "title": "{EmiTable: A Tabletop Surface Pervaded with Imperceptible Metadata}",
+        "author": "Kimura, Sho and Kitamura, Masahiko and Naemura, Takeshi",
+        "conference": "Proceedings of Second IEEE International Workshop on Horizontal Interactive Human-Computer Systems - TABLETOP '07",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "{HALUX: Projection-based interactive skin for digital sports}",
+        "author": "Uematsu, Haruya and Ogawa, Daichi and Okazaki, Ryuta and Hachisu, Taku and Kajimoto, Hiroyuki",
+        "conference": "ACM SIGGRAPH 2016 Emerging Technologies on - SIGGRAPH '16",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "{Foraging Behavior of Interacting Robots with Virtual Pheromone}",
+        "author": "Sugawara, K. and Kazama, T. and Watanabe, T.",
+        "conference": "Proceedings of 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "year": "2004"
+      }
+    ],
+    [
+      {
+        "title": "{Dynamically Reconfigurable Framework for Pixel-level Visible Light Communication Projector}",
+        "author": "Zhou, Leijie and Fukushima, Shogo and Naemura, Takeshi",
+        "conference": "Proceedings of the SPIE 8979, Emerging Digital Micromirror Device Based Systems and Applications VI",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{Massive uniform manipulation: Controlling large populations of simple robots with a common input signal}",
+        "author": "Becker, Aaron and Habibi, Golnaz and Werfel, Justin and Rubenstein, Michael and McLurkin, James",
+        "conference": "Proceedings of 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "{High-speed laser localization for mobile robots}",
+        "author": "Lingemann, Kai and N{\\\"{u}}chter, Andreas and Hertzberg, Joachim and Surmann, Hartmut",
+        "conference": "Robotics and Autonomous Systems",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "{Prakash: Lighting Aware Motion Capture using Photosensing Markers and Multiplexed Illuminators}",
+        "author": "Raskar, Ramesh and Barnwell, John and Nayar, Shree and Inami, Masahiko and Bekaert, Philippe and Noland, Michael and Branzoi, Vlad and Bruns, Erich and Nii, Hideaki and DeDecker, Bert and Hashimoto, Yuki and Summet, Jay and Moore, Dylan and Zhao, Yong and Westhues, Jonathan and Dietz, Paul",
+        "conference": "ACM Transactions on Graphics",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "{Thumbles - Robotic Tabletop User Interface Platform}",
+        "author": "Patten, James",
+        "conference": "Proceedings of 2005 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{Motion planning for disc-shaped robots pushing a polygonal object in the plane}",
+        "author": "Sudsang, A. and Rothganger, F. and Ponce, J.",
+        "conference": "IEEE Transactions on Robotics and Automation",
+        "year": "2002"
+      }
+    ],
+    [
+      {
+        "title": "{Further results on interactions with a line-follower}",
+        "author": "Fujiwara, T. and Muramatsu, T. and Iwatani, Y.",
+        "conference": "Proceedings of SICE Annual Conference (SICE)",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "{Motor Schema — Based Mobile Robot Navigation}",
+        "author": "Arkin, Ronald C.",
+        "conference": "The International Journal of Robotics Research",
+        "year": "1989"
+      }
+    ],
+    [
+      {
+        "title": "{Zooids: Building Blocks for Swarm User Interfaces}",
+        "author": "{Le Goc}, Mathieu and Kim, Lawrence H. and Parsaei, Ali and Fekete, Jean-Daniel and Dragicevic, Pierre and Follmer, Sean",
+        "conference": "Proceedings of the 29th Annual Symposium on User Interface Software and Technology - UIST '16",
+        "year": "2016"
+      }
+    ],
+    [
+      {
+        "title": "{Mobile Robot Localization via Outlier Rejection in Sonar Range Sensor Data}",
+        "author": "Yilmaz, S. and Kayir, H.E. and Kaleci, B. and Parlaktuna, O.",
+        "conference": "Proceedings of 7th International Conference on Electrical and Electronics Engineering (ELECO)",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "{Alice in Pheromone Land: An Experimental Setup for the Study of Ant-like Robots}",
+        "author": "Garnier, Simon and Tache, Faben and Combe, Maud and Grimal, Anne and Theraulaz, Guy",
+        "conference": "Proceedings of 2007 IEEE Swarm Intelligence Symposium",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "{Smart Light-Ultra High Speed Projector for Spatial Multiplexing Optical Transmission}",
+        "author": "Nii, Hideaki and Sugimoto, Masanori and Inami, Masahiko",
+        "conference": "Proceedings of 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05) - Workshops",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "{Automatic Projector Calibration with Embedded Light Sensors}",
+        "author": "Lee, Johnny C. and Dietz, Paul H. and Maynes-Aminzade, Dan and Raskar, Ramesh and Hudson, Scott E.",
+        "conference": "Proceedings of the 17th annual ACM symposium on User interface software and technology - UIST '04",
+        "year": "2004"
+      }
+    ],
+    [
+      {
+        "title": "{A Display-Based Tracking System: Display-Based Computing for Measurement Systems}",
+        "author": "Sugimoto, Maki and Kodama, Kazuki and Nakamura, Akihiro and Kojima, Minoru and Inami, Masahiko",
+        "conference": "Proceedings of 17th International Conference on Artificial Reality and Telexistence (ICAT 2007)",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "{PVLC Projector: Image projection with imperceptible pixel-level metadata}",
+        "author": "Kimura, Sho and Oguchi, Ryo and Tanida, Hideo and Kakehi, Yasuaki and Takahashi, Keita and Naemura, Takeshi",
+        "conference": "ACM SIGGRAPH 2008 Posters on - SIGGRAPH '08",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "{Communication Using Pheromone Field for Multiple Robots}",
+        "author": "Fujisawa, R. and Imamura, H. and Hashimoto, T. and Matsuno, F.",
+        "conference": "Proceedings of 2008 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "{PICOntrol: Using a Handheld Projector for Direct Control of Physical Devices through Visible Light}",
+        "author": "Schmidt, Dominik and Molyneaux, David and Cao, Xiang",
+        "conference": "Proceedings of the 25th annual ACM symposium on User interface software and technology - UIST '12",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "{The I-SWARM project}",
+        "author": "Woern, Heinz and Szymanski, Marc and Seyfried, Joerg",
+        "conference": "ROMAN 2006 - The 15th IEEE International Symposium on Robot and Human Interactive Communication",
+        "year": "2006"
+      }
+    ],
+    [
+      {
+        "title": "{A Dipole Field for Object Delivery by Pushing on a Flat Surface}",
+        "author": "Igarashi, Takeo and Kamiyama, Youichi and Inami, Masahiko",
+        "conference": "Proceedings of 2010 IEEE International Conference on Robotics and Automation",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "{Bloxels: Glowing Blocks as Volumetric Pixels}",
+        "author": "Lee, Jinha and Kakehi, Yasuaki and Naemura, Takeshi",
+        "conference": "ACM SIGGRAPH 2009 Emerging Technologies on - SIGGRAPH '09",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "{Line based robot localization using a rotary sonar}",
+        "author": "Navarro, Danilo and Benet, Gines and Martinez, Milagros",
+        "conference": "Proceedings of 2007 IEEE Conference on Emerging Technologies {\\&} Factory Automation (EFTA 2007)",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "{HiFi: Hide and Find Digital Content Associated with Physical Objects via Coded Light}",
+        "author": "Fan, Mingming and Liu, Qiong and Tang, Hao and Chiu, Patrick",
+        "conference": "Proceedings of the 15th Workshop on Mobile Computing Systems and Applications - HotMobile '14",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{Mobile robot self-localization system using IR-UWB sensor in indoor environments}",
+        "author": "Segura, Marcelo J. and Mut, Vicente A. and Patino, Hector D.",
+        "conference": "Proceedings of 2009 IEEE International Workshop on Robotic and Sensors Environments",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "{VisiCon: A Robot Control Interface for Visualizing Manipulation Using a Handheld Projector}",
+        "author": "Hosoi, Kazuhiro and Dao, Vinh Ninh and Mori, Akihiro and Sugimoto, Masanori",
+        "conference": "Proceedings of 2007 International Conference on Advances in computer entertainment technology - ACE '07",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "{High-speed laser localization for a restaurant service mobile robot}",
+        "author": "Tzou, Jyh-Hwa and Su, Kuo L.",
+        "conference": "Artificial Life and Robotics",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "{Improved Indoor Location Estimation Using Fluorescent Light Communication System with a Nine-Channel Receiver}",
+        "author": "Liu, Xiaohan and Makino, Hideo and Mase, Kenichi",
+        "conference": "IEICE Transactions on Communications",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "{SteganoScan : Persistence of vision display with Pixel-Level Visible Light Communication Projector}",
+        "author": "Kishi, Ryo and Kakehi, Yasuaki and Naemura, Takeshi",
+        "conference": "ACM SIGGRAPH 2009 Posters on - SIGGRAPH '09",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "{Reciprocal Collision Avoidance for Multiple Car-like Robots}",
+        "author": "Alonso-Mora, Javier and Breitenmoser, Andreas and Beardsley, Paul and Siegwart, Roland",
+        "conference": "Proceedings of 2012 IEEE International Conference on Robotics and Automation",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "{Basic Study on Robot Control in an Intelligent Indoor Environment using Visible light Communication}",
+        "author": "Liu, Xiaohan and Umino, Eri and Makino, Hideo",
+        "conference": "Proceedings of 2009 IEEE International Symposium on Intelligent Signal Processing",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "{Interactions with a line-follower: An interactive tabletop system with a markerless gesture interface for robot control}",
+        "author": "Fujiwara, Taiki and Iwatani, Yasushi",
+        "conference": "Proceedings of 2011 IEEE International Conference on Robotics and Biomimetics",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "{Localization Methods for a Mobile Robot in Urban Environments}",
+        "author": "Georgiev, A. and Allen, P.K.",
+        "conference": "IEEE Transactions on Robotics",
+        "year": "2004"
+      }
+    ],
+    [
+      {
+        "title": "{Human Perception of Swarm Robot Motion}",
+        "author": "Dietz, Griffin and E., Jane L. and Washington, Peter and Kim, Lawrence H. and Follmer, Sean",
+        "conference": "Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems  - CHI EA '17",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "{Supporting Remote Tangible Robotic Entertainment}",
+        "author": "Furuhira, Akihiro and Marais, Wynand and Thomas, Bruce",
+        "conference": "Proceedings of the 2008 International Conference in Advances on Computer Entertainment Technology - ACE '08",
+        "year": "2008"
+      }
+    ],
+    [
+      {
+        "title": "{SenseableRays: Opto-haptic substitution for touch-enhanced interactive spaces}",
+        "author": "Rekimoto, Jun",
+        "conference": "Proceedings of the 2009 CHI Conference Extended Abstracts on Human Factors in Computing Systems - CHI EA '09",
+        "year": "2009"
+      }
+    ],
+    [
+      {
+        "title": "{Navigation Using One Laser Source for Mobile Robot with Optical Sensor Array Installed in Pan and Tilt Mechanism}",
+        "author": "Hara, Keigo and Maeyama, Shoichi",
+        "conference": "Proceedings of 2008 IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
+        "year": "2008"
+      }
+    ]
+  ]
+}

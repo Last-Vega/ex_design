@@ -88,6 +88,8 @@ import mori50 from '@/assets/morishima50shuffled3.json'
 import kim50 from '@/assets/kim50shuffled.json'
 import waka50 from '@/assets/wakaba50shuffled.json'
 import suzu50 from '@/assets/suzuki50shuffled.json'
+import hira50 from '@/assets/hira50shuffled.json'
+import ono50 from '@/assets/ono50shuffled.json'
 import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
@@ -218,6 +220,20 @@ export default {
       this.uID = 6
       this.collectionName = 'WakaLog'
       this.collectionMovedName = 'WakaMovedLog'
+    } else if (this.$route.path === '/hira') {
+      this.options.series[0].dataLabal = hira50.key
+      this.options.series[1].dataLabal = hira50.key
+      this.bibInfo = hira50
+      this.uID = 7
+      this.collectionName = 'HiraLog'
+      this.collectionMovedName = 'HiraMovedLog'
+    } else if (this.$route.path === '/ono') {
+      this.options.series[0].dataLabal = ono50.key
+      this.options.series[1].dataLabal = ono50.key
+      this.bibInfo = ono50
+      this.uID = 8
+      this.collectionName = 'OnoLog'
+      this.collectionMovedName = 'OnoMovedLog'
     }
   }
 }
