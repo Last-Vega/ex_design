@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <Loading :flag="isShow" />
     <Dialog />
     <section class="charts">
       <highcharts :options="options" ref="chart"></highcharts>
@@ -42,31 +43,6 @@
           </v-btn>
         </v-col>
         <v-col cols="12" sm="2"> </v-col>
-        <!-- <v-col cols="12" sm="5">
-          <v-simple-table>
-            <template v-slot:default>
-              <caption>
-                Moved Document
-              </caption>
-              <thead>
-                <tr>
-                  <th class="text-left">Title</th>
-                  <th class="text-left">Authors</th>
-                  <th class="text-left">Conference</th>
-                  <th class="text-left">Year</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>{{ items.title }}</td>
-                  <td>{{ items.author }}</td>
-                  <td>{{ items.conference }}</td>
-                  <td>{{ items.year }}</td>
-                </tr>
-              </tbody>
-            </template>
-          </v-simple-table>
-        </v-col> -->
       </v-row>
     </v-container>
   </v-app>
@@ -74,14 +50,10 @@
 
 <script>
 import {
-  tableData,
   chartOptions,
   miscList,
   reMovedObj
 } from '@/components/createLatentSpace'
-// import ito50 from '@/assets/ito50shuffled2.json'
-// import matsu50 from '@/assets/matsubara50shuffled2.json'
-// import mori50 from '@/assets/morishima50shuffled2.json'
 import ito50 from '@/assets/ito50shuffled3.json'
 import matsu50 from '@/assets/matsubara50shuffled3.json'
 import mori50 from '@/assets/morishima50shuffled3.json'
@@ -90,14 +62,17 @@ import waka50 from '@/assets/wakaba50shuffled.json'
 import suzu50 from '@/assets/suzuki50shuffled.json'
 import hira50 from '@/assets/hira50shuffled.json'
 import ono50 from '@/assets/ono50shuffled.json'
+import kato50 from '@/assets/kato50shuffled.json'
 import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
+import Loading from '@/components/Loading'
 
 export default {
   name: 'DisplayLatentSpace',
   components: {
-    Dialog
+    Dialog,
+    Loading
   },
   data () {
     return {
@@ -108,22 +83,29 @@ export default {
         { text: 'Conference', value: 'conference' },
         { text: 'Year', value: 'year' }
       ],
-      items: tableData,
       bibInfo: '',
       bibInfoIndex: 0,
       uID: -1,
       misc: miscList,
       collectionName: '',
       collectionMovedName: '',
-      reMovedObj: reMovedObj
+      reMovedObj: reMovedObj,
+      isShow: false
     }
   },
   methods: {
     async addZero () {
+      this.isShow = true
       const now = new Date()
-      if (Object.keys(reMovedObj).length !== 0) {
+      if (Object.keys(reMovedObj).leångth !== 0) {
         for (const index in reMovedObj) {
-          await db.collection(this.collectionMovedName).add({
+          const id = parseInt(index, 10)
+          const querySnapshot = await db.collection(this.collectionName).where('ind', '==', id).get()
+          let queryID = ''
+          querySnapshot.forEach((postDoc) => {
+            queryID = postDoc.id
+          })
+          await db.collection(this.collectionName).doc(queryID).update({
             ind: parseInt(index, 10),
             x: reMovedObj[index][0],
             y: reMovedObj[index][1],
@@ -160,14 +142,36 @@ export default {
           title: this.bibInfo.key[this.bibInfoIndex][0].title,
           createdAt: now
         })
-        this.options.series[1].data.push(moved)
         this.bibInfoIndex += 1
-        console.log(this.options.series[1].data)
       }
+      this.makeScatter()
+      this.isShow = false
     },
     displayBibInfo () {
       return this.bibInfo.key[this.bibInfoIndex][0]
+    },
+    async makeScatter () {
+      let nowBibInfoIndex = 0
+      const moved = []
+      const querySnapshot = await db.collection(this.collectionName).orderBy('ind', 'asc').get()
+      querySnapshot.forEach((postDoc) => {
+        console.log(postDoc.data().ind, postDoc.data().title)
+        moved.push([postDoc.data().x, postDoc.data().y])
+        nowBibInfoIndex += 1
+      })
+      this.options.series[1].data = moved
+      this.bibInfoIndex = nowBibInfoIndex
     }
+    // async getBibInfoIndex () {
+    //   const nowBibInfoIndex = 0
+    //   const querySnapshot = await db.collection(this.collectionName).orderBy('ind', 'asc').get()
+    //   console.log(querySnapshot)
+    //   // querySnapshot.forEach((postDoc) => {
+    //   //   nowBibInfoIndex = postDoc.data().ind
+    //   // })
+
+    //   return nowBibInfoIndex
+    // }
   },
   created () {
     if (this.$route.path === '/mori') {
@@ -198,7 +202,8 @@ export default {
       this.uID = 3
       this.collectionName = 'tutorialLog'
       this.collectionMovedName = 'tutorialMovedLog'
-      console.log(this.options.series[1].dataLabal)
+      // this.bibInfoIndex = this.getBibInfoIndex()
+      // console.log(this.bibInfoIndex)
     } else if (this.$route.path === '/kim') {
       this.options.series[0].dataLabal = kim50.key
       this.options.series[1].dataLabal = kim50.key
@@ -234,7 +239,15 @@ export default {
       this.uID = 8
       this.collectionName = 'OnoLog'
       this.collectionMovedName = 'OnoMovedLog'
+    } else if (this.$route.path === '/kato') {
+      this.options.series[0].dataLabal = kato50.key
+      this.options.series[1].dataLabal = kato50.key
+      this.bibInfo = kato50
+      this.uID = 9
+      this.collectionName = 'KatoLog'
+      this.collectionMovedName = 'KatoMovedLog'
     }
+    this.makeScatter()
   }
 }
 </script>

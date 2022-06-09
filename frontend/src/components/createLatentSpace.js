@@ -107,11 +107,9 @@ const chartOptions = {
           drop: function (e) {
             const point = this
             const index = point.index
-            console.log(index)
             if (e.newPoint.x !== undefined) {
               chartOptions.series[0].data[index] = [e.newPoint.x, e.newPoint.y]
               miscList[index] = [e.newPoint.x, e.newPoint.y]
-              // console.log(miscList)
             }
           }
         }
@@ -131,23 +129,10 @@ const chartOptions = {
       },
       point: {
         events: {
-          mouseOver () {
-            const point = this
-            const index = point.index
-            tableData.title =
-              chartOptions.series[1].dataLabal[index][0].title
-            tableData.author =
-              chartOptions.series[1].dataLabal[index][0].author
-            tableData.conference =
-              chartOptions.series[1].dataLabal[index][0].conference
-            tableData.year = chartOptions.series[1].dataLabal[index][0].year
-            console.log(index)
-          },
           drop: function (e) {
             const point = this
             const index = point.index
             if (e.newPoint.x !== undefined) {
-              // console.log(e.newPoint.x)
               chartOptions.series[1].data[index] = [e.newPoint.x, e.newPoint.y]
               reMovedObj[index] = [e.newPoint.x, e.newPoint.y]
             }
@@ -166,5 +151,4 @@ const chartOptions = {
     }
   }
 }
-
-export { tableData, chartOptions, miscList, reMovedObj }
+export { chartOptions, miscList, reMovedObj }

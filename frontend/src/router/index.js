@@ -44,6 +44,11 @@ const routes = [
     path: '/ono',
     name: 'ono',
     component: LatentSpace
+  },
+  {
+    path: '/kato',
+    name: 'kato',
+    component: LatentSpace
   }
 ]
 
