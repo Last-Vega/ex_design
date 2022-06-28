@@ -49,6 +49,11 @@ const routes = [
     path: '/kato',
     name: 'kato',
     component: LatentSpace
+  },
+  {
+    path: '/yu',
+    name: 'yu',
+    component: LatentSpace
   }
 ]
 

@@ -12,7 +12,8 @@
         <router-link to="/suzu">鈴木先生</router-link><br /><br />
         <router-link to="/hira">平木先生</router-link><br /><br />
         <router-link to="/ono">小野先生</router-link><br /><br /> -->
-        <router-link to="/kato">加藤先生</router-link><br /><br />
+        <!-- <router-link to="/kato">加藤先生</router-link><br /><br /> -->
+        <router-link to="/yu">宇先生</router-link><br /><br />
         <router-link to="/tutorial">チュートリアル</router-link><br /><br />
       </v-container>
     </v-main>

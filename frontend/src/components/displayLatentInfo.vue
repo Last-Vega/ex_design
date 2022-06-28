@@ -63,6 +63,7 @@ import suzu50 from '@/assets/suzuki50shuffled.json'
 import hira50 from '@/assets/hira50shuffled.json'
 import ono50 from '@/assets/ono50shuffled.json'
 import kato50 from '@/assets/kato50shuffled.json'
+import yu50 from '@/assets/yu50shuffled.json'
 import tutorial50 from '@/assets/ito50.json'
 import { db } from '../plugins/firebase'
 import Dialog from '@/components/taskInstraction'
@@ -246,6 +247,13 @@ export default {
       this.uID = 9
       this.collectionName = 'KatoLog'
       this.collectionMovedName = 'KatoMovedLog'
+    } else if (this.$route.path === '/yu') {
+      this.options.series[0].dataLabal = yu50.key
+      this.options.series[1].dataLabal = yu50.key
+      this.bibInfo = yu50
+      this.uID = 10
+      this.collectionName = 'YuLog'
+      this.collectionMovedName = 'YuMovedLog'
     }
     this.makeScatter()
   }

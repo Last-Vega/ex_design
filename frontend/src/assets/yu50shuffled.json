@@ -1,0 +1,404 @@
+{
+  "key": [
+    [
+      {
+        "title": "{Energy-based Generative Adversarial Network}",
+        "author": "Zhao, Junbo and Mathieu, Michael and LeCun, Yann",
+        "conference": "International Conference on Learning Representations",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "{SoftSort: A Continuous Relaxation for the argsort Operator}",
+        "author": "Prillo, Sebastian and Eisenschlos, Julian Martin",
+        "conference": "Proceedings of the 37th ICML",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{SetRank: Learning a Permutation-Invariant Ranking Model for Information Retrieval}",
+        "author": "Pang, Liang and Xu, Jun and Ai, Qingyao and Lan, Yanyan and Cheng, Xueqi and Wen, Jirong",
+        "conference": "Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation}",
+        "author": "Bengio, Yoshua and L{\\'{e}}onard, Nicholas and Courville, Aaron",
+        "conference": "arXiv:1308.3432",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "{The inadequacy of probability of usefulness as a ranking criterion for retrieval system output}",
+        "author": "Cooper, W S",
+        "conference": "Technical Report",
+        "year": "1971"
+      }
+    ],
+    [
+      {
+        "title": "{An efficient deep learning technique for facial emotion recognition}",
+        "author": "Khattak, Asad and Asghar, Muhammad Zubair and Ali, Mushtaq and Batool, Ulfat",
+        "conference": "ultimedia Tools and Applications",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Stochastic Optimization of Sorting Networks via Continuous Relaxations}",
+        "author": "Grover, Aditya and Wang, Eric and Zweig, Aaron and Ermon, Stefan",
+        "conference": "Proceedings of ICLR",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "{Attention Is All You Need}",
+        "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Undefinedukasz and Polosukhin, Illia",
+        "conference": "Proceedings of the 31st International Conference on Neural Information Processing Systems",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "{Click-through-based Cross-view Learning for Image Search}",
+        "author": "Pan, Yingwei and Yao, Ting and Mei, Tao and Li, Houqiang and Ngo, Chong-Wah and Rui, Yong",
+        "conference": "SIGIR2014",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{Generative Adversarial Networks and Markov Random Fields for oversampling very small training sets}",
+        "author": "Salazar, Addisson and Vergara, Luis and Safont, Gonzal",
+        "conference": "Expert Systems with Applications",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Supervised approaches for explicit search result diversification}",
+        "author": "Yigit-Sert, Sevgi and Altingovde, Ismail Sengor and Macdonald, Craig and Ounis, Iadh and Ulusoy, {\\\"{O}}zg{\\\"{u}}r",
+        "conference": "Information Processing and Management",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{Clustering user queries of a search engine}",
+        "author": "Wen, Ji-Rong and Nie, Jian-Yun and Zhang, Hong-Jiang",
+        "conference": "Proceedings of the 10th WWW",
+        "year": "2001"
+      }
+    ],
+    [
+      {
+        "title": "{Generating Diversified Comments via Reader-Aware Topic Modeling and Saliency Detection}",
+        "author": "Wang, Wei and Li, Piji and Zheng, Hai-Tao",
+        "conference": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Data Mining: Concepts and Techniques}",
+        "author": "Han, Jiawei and Kamber, Micheline and Pei, Jian",
+        "conference": "Proceedings of the 19th CIKM",
+        "year": "2005"
+      }
+    ],
+    [
+      {
+        "title": "{An Alternative Cross Entropy Loss for Learning-to-Rank}",
+        "author": "Bruch, Sebastian",
+        "conference": "Proceedings of the Web Conference 2021",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Incorporating Vertical Results into Search Click Models}",
+        "author": "Wang, Chao and Liu, Yiqun and Zhang, Min and Ma, Shaoping and Zheng, Meihong and Qian, Jing and Zhang, Kuo",
+        "conference": "Proceedings of the 36th SIGIR",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "{Learning from Imbalanced Data Sets}",
+        "author": "Fern{\\'{a}}ndez, Alberto and Garc{\\'{i}}a, Salvador and Galar, Mikel and Prati, Ronaldo C. and Krawczyk, Bartosz and Herrera, Francisco",
+        "conference": "IEEE Access",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "{Modeling Intent Graph for Search Result Diversification}",
+        "author": "Su, Zhan and Dou, Zhicheng and Zhu, Yutao and Qin, Xubo and Wen, Ji-rong",
+        "conference": "Proceedings of the 44th SIGIR",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Glove: Global Vectors for Word Representation}",
+        "author": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D",
+        "conference": "Proceedings of EMNLP",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{Smooth-AP: Smoothing the Path Towards Large-Scale Image Retrieval}",
+        "author": "{Brown, Andrew and Xie, Weidi and Kalogeiton, Vicky and Zisserman}, Andrew",
+        "conference": "Proceedings of ECCV",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{A Hybrid Deep Learning Technique for Personality Trait Classification From Text}",
+        "author": "Ahmad, Hussain and Asghar, Muhammad Usama and Asghar, Muhammad Zubair and Khan, Aurangzeb and Mosavi, Amir H.",
+        "conference": "IEEE Access",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Collaborative, Dynamic and Diversified User Profiling}",
+        "author": "Liang, Shangsong",
+        "conference": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "{Term level search result diversification}",
+        "author": "Dang, Van and Croft, W Bruce",
+        "conference": "Proceedings of the 36th SIGIR",
+        "year": "2013"
+      }
+    ],
+    [
+      {
+        "title": "{Differentiable Ranking and Sorting using Optimal Transport}",
+        "author": "Cuturi, Marco and Teboul, Olivier and Vert, Jean-Philippe",
+        "conference": "Proceedings of the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019)",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "{Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness}",
+        "author": "Harrie, Oosterhuis",
+        "conference": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{PiRank: Learning to Rank via Differentiable Sorting}",
+        "author": "Swezey, Robin and Grover, Aditya and Charron, Bruno and Ermon, Stefano",
+        "conference": "Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS 2021)",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Okapi at TREC-3}",
+        "author": "Robertson, Stephen E and Walker, Steve and Jones, Susan and Hancock-Beaulieu, Micheline and Gatford, Mike",
+        "conference": "Proceedings of TREC",
+        "year": "1994"
+      }
+    ],
+    [
+      {
+        "title": "{Predicting Clicks: Estimating the Click-through Rate for New Ads}",
+        "author": "Richardson, Matthew and Dominowska, Ewa and Ragno, Robert",
+        "conference": "Proceedings of the 16th WWW",
+        "year": "2007"
+      }
+    ],
+    [
+      {
+        "title": "{Exploiting Concept Hierarchy for Result Diversification}",
+        "author": "Zheng, Wei and Fang, Hui and Yao, Conglei",
+        "conference": "Proceedings of the 21st CIKM",
+        "year": "2012"
+      }
+    ],
+    [
+      {
+        "title": "{Paraphrase Diversification Using Counterfactual Debiasing}",
+        "author": "Park, Sunghyun and Hwang, Seung-won and Chen, Fuxiang and Choo, Jaegul and Ha, Jung-Woo and Kim, Sunghun and Yim, Jinyeong",
+        "conference": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "{Directly optimize diversity evaluation measures: A new approach to search result diversification}",
+        "author": "Xu, Jun and Xia, Long and Lan, Yanyan and Guo, Jiafeng and Cheng, Xueqi",
+        "conference": "ACM Transactions on Intelligent Systems and Technology",
+        "year": "2017"
+      }
+    ],
+    [
+      {
+        "title": "{Deep Neural Decision Forests}",
+        "author": "Kontschieder, Peter and Fiterau, Madalina and Criminisi, Antonio and Bulo, Samuel Rota",
+        "conference": "Proceedings of ICCV",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "{A Hybrid CNN-LSTM Model for Psychopathic Class Detection from Tweeter Users}",
+        "author": "Alotaibi, Fahad Mazaed and Asghar, Muhammad Zubair and Ahmad, Shakeel",
+        "conference": "Cognitive Computation",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Diverse retrieval via greedy optimization of expected 1-call@k in a latent subtopic relevance model}",
+        "author": "Sanner, Scott and Guo, Shengbo and Graepel, Thore and Kharazmi, Sadegh and Karimi, Sarvnaz",
+        "conference": "Proceedings of the 20th CIKM",
+        "year": "2011"
+      }
+    ],
+    [
+      {
+        "title": "{Compact Aspect Embedding for Diversified Query Expansions}",
+        "author": "Liu, Xiaohua and Bouchoucha, Arbi and Sordoni, Alessandro and Nie, Jian-Yun",
+        "conference": "Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence",
+        "year": "2014"
+      }
+    ],
+    [
+      {
+        "title": "{Supercharging Imbalanced Data Learning With Energy-based Contrastive Representation Transfer}",
+        "author": "Xiu, Zidi and Chen, Junya and Henao, Ricardo and Goldstein, Benjamin and Carin, Lawrence and Tao, Chenyang",
+        "conference": "Proceedings of 35th Conference on Neural Information Processing Systems (NeurIPS 2021)",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Location- and Query-Aware Modeling of Browsing and Click Behavior in Sponsored Search}",
+        "author": "Ashkan, Azin and Clarke, Charles L A",
+        "conference": "ACM Transactions on Intelligent Systems and Technology",
+        "year": "2015"
+      }
+    ],
+    [
+      {
+        "title": "{Understanding Straight-Through Estimator in Training Activation Quantized Neural Nets}",
+        "author": "Yin, Penghang and Lyu, Jiancheng and Zhang, Shuai and Osher, Stanley J. and Qi, Yingyong and Xin, Jack",
+        "conference": "Proceedings of International Conference on Learning Representations",
+        "year": "2019"
+      }
+    ],
+    [
+      {
+        "title": "{Adversarial Personalized Ranking for Recommendation}",
+        "author": "He, Xiangnan and He, Zhankui and Du, Xiaoyu and Chua, Tat-Seng",
+        "conference": "Proceedings of SIGIR",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "{Diversified Interactive Recommendation with Implicit Feedback}",
+        "author": "Liu, Yong and Xiao, Yingtai and Wu, Qiong and Miao, Chunyan and Zhang, Juyong and Zhao, Binqiang and Tang, Haihong",
+        "conference": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{Diversifying Search Results using Self-Attention Network}",
+        "author": "Qin, Xubo and Dou, Zhicheng and Wen, Ji Rong",
+        "conference": "International Conference on Information and Knowledge Management, Proceedings",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{A Hybrid Bandit Framework for Diversified Recommendation}",
+        "author": "Ding, Qinxu and Liu, Yong and Miao, Chunyan and Cheng, Fei and Tang, Haihong",
+        "conference": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Latent cross: Making use of context in recurrent recommender systems}",
+        "author": "Beutel, Alex and Covington, Paul and Jain, Sagar and Xu, Can and Li, Jia and Gatto, Vince and Chi, Ed H.",
+        "conference": "Proceedings of the 11th ACM International Conference on Web Search and Data Mining",
+        "year": "2018"
+      }
+    ],
+    [
+      {
+        "title": "{Diversification-Aware Learning to Rank using Distributed Representation}",
+        "author": "Yan, Le and Qin, Zhen and {Kumar Pasumarthi}, Rama and Wang, Xuanhui and Bendersky, Michael",
+        "conference": "Proceedings of the Web Conference 2021",
+        "year": "2021"
+      }
+    ],
+    [
+      {
+        "title": "{Search Result Diversification with Guarantee of Topic Proportionality}",
+        "author": "Sarwar, Sheikh Muhammad and Addanki, Raghavendra and Montazeralghaem, Ali and Pal, Soumyabrata and Allan, James",
+        "conference": "Proceedings of the 2020 ACM SIGIR International Conference on Theory of Information Retrieval",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{Diversifying Query Suggestion Results}",
+        "author": "Ma, Hao and Lyu, Michael R. and King, Irwin",
+        "conference": "Proceedings of the Twenty-Fourth AAAI Conference on Artificial Intelligence",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "{Fast Differentiable Sorting and Ranking}",
+        "author": "Blondel, Mathieu and Teboul, Olivier and Berthet, Quentin and Djolonga, Josip",
+        "conference": "Proceedings of the 37th ICML",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{Permutation Equivariant Document Interaction Network for Neural Learning to Rank}",
+        "author": "Pasumarthi, Rama Kumar and Zhuang, Honglei and Wang, Xuanhui and Bendersky, Michael and Najork, Marc",
+        "conference": "Proceedings of the 2020 ACM SIGIR International Conference on Theory of Information Retrieval",
+        "year": "2020"
+      }
+    ],
+    [
+      {
+        "title": "{Probabilistic first pass retrieval for search advertising: from theory to practice}",
+        "author": "Raghavan, Hema and Iyer, Rukmini",
+        "conference": "Proceedings of the 19th CIKM",
+        "year": "2010"
+      }
+    ],
+    [
+      {
+        "title": "{Mixture Density Networks}",
+        "author": "Bishop, Christopher M",
+        "conference": "Proceedings of the 44th SIGIR",
+        "year": "1994"
+      }
+    ]
+  ]
+}
